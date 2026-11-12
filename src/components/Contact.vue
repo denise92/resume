@@ -3,7 +3,7 @@
 import { ref } from 'vue'
 
 const copiedEmail = ref(false)
-const email = 'denise92.tw@gmail.com'
+const email = 'rei7092@gmail.com'
 
 const copyEmail = () => {
   navigator.clipboard.writeText(email)
