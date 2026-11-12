@@ -10,11 +10,11 @@
       </div>
       
       <div class="space-y-12 border-l-2 border-slate-800 pl-6 ml-2">
-        <!-- 現職：購金車股份有限公司 -->
+        <!-- 現職：購金車有限公司 -->
         <div class="relative">
           <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-sky-400 mb-1">2016/03 ～ 2026/12 (10年10個月)</div>
-          <h3 class="text-xl font-bold text-white">資深全端工程師 ｜ 購金車股份有限公司</h3>
+          <h3 class="text-xl font-bold text-white">資深全端工程師 ｜ 購金車有限公司</h3>
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
             負責全端網路程式設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。獨立開發電子發票自動化系統、智慧物流與廣告數據管理系統，並主導跨部門協調與專案執行。
           </p>
@@ -48,7 +48,7 @@
         <div class="relative">
           <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2014/08 ～ 2015/8 (1年1個月)</div>
-          <h3 class="text-xl font-bold text-white">資深程式設計師 ｜ 購明系雲科技股份有限公司</h3>
+          <h3 class="text-xl font-bold text-white">資深程式設計師 ｜ 購明系雲科技有限公司</h3>
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
             主導建置出貨與倉儲系統，並無縫整合各大網購平台訂單與發票系統，提升整體供應鏈與電商自動化效率。
           </p>
@@ -66,7 +66,7 @@
           <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2012/12 ～ 2013/07 (8個月)</div>
           <h3 class="text-xl font-bold text-white">
-            PHP程式設計師 ｜ 東方鴻展遊戲股份有限公司 (1758play)
+            PHP程式設計師 ｜ 東方鴻展遊戲有限公司 (1758play)
             <a href="#history" class="text-xs bg-sky-500/20 text-sky-300 px-2.5 py-0.5 rounded-md ml-2 border border-sky-500/30 hover:bg-sky-500/30 transition">查看作品截圖 ↗</a>
           </h3>
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
@@ -126,7 +126,10 @@
         <div class="relative">
           <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-800 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2005/03 ～ 2010/12 (累積 6 年系統與網管資歷)</div>
-          <h3 class="text-xl font-bold text-white">網路工程師與 MIS 主管 ｜ 永漢國際書局 & 藝游館文化事業</h3>
+          <h3 class="text-xl font-bold text-white">
+            網路工程師與 MIS 主管 ｜ 永漢國際書局 & 藝游館文化事業
+            <a href="#history" class="text-xs bg-sky-500/20 text-sky-300 px-2.5 py-0.5 rounded-md ml-2 border border-sky-500/30 hover:bg-sky-500/30 transition">查看作品截圖 ↗</a>
+          </h3>
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
             早期負責主機建置管理、網路安全管理、伺服器（LAMP、DNS、Mail Server）與資料庫維護、電腦軟硬體管理及網站程式設計，為後續 15 年的全端與維運實力打下最扎實的底子。
           </p>
