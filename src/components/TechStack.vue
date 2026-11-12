@@ -65,10 +65,13 @@
           <h3 class="text-indigo-400 font-semibold mb-3">Tools</h3>
           
           <div class="flex flex-wrap gap-2">
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Git</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">GitHub</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Bitbucket</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">SVN</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Cursor</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Codex</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Claude</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">VS Code</span>
           </div>
         </div>
 
