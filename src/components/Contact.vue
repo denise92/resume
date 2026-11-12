@@ -22,7 +22,7 @@ const copyEmail = () => {
         Get in Touch
       </span>
       
-      <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4 mb-6">
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-6">
         尋找資深全端與系統架構夥伴？歡迎與我聯繫
       </h2>
       
