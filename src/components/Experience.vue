@@ -18,13 +18,18 @@
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
             負責全端網路程式設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。獨立開發電子發票自動化系統、智慧物流與廣告數據管理系統，並主導跨部門協調與專案執行。
           </p>
-            <!-- 技術棧標籤 -->
-            <div class="flex flex-wrap gap-2 mt-4 text-xs">
-              <span class="bg-sky-500/10 text-sky-300 px-3 py-1 rounded-lg border border-sky-500/20">Python (FastAPI)</span>
-              <span class="bg-emerald-500/10 text-emerald-300 px-3 py-1 rounded-lg border border-emerald-500/20">PostgreSQL</span>
-              <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">Linux / Docker</span>
-              <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">異質 API 整合</span>
-            </div>
+          <ul class="list-disc list-inside text-slate-300 text-sm mt-2 space-y-1.5 leading-relaxed">
+            <li><strong class="text-white">電子發票自動化系統</strong>：獨立開發基於 Python (FastAPI) 與 PostgreSQL 之自動化開立與對帳系統，每月自動處理數萬筆電子發票及 SFTP 檔案拋轉，減少 90% 以上的人工作業與對帳時間。</li>
+            <li><strong class="text-white">智慧物流追蹤系統</strong>：串接多方物流與超商異質 API，運用背景非同步排程實現即時貨態追蹤與數據整合，大幅提升物流異常處理效率。</li>
+            <li><strong class="text-white">廣告數據整合與投放管理系統</strong>：整合各大數位廣告平台（如 Google Ads、Meta 等）之異質 API 與數據流，建立自動化成效彙整與投放管理看板，以數據驅動行銷決策，顯著提升跨渠道廣告數據能見度與投放效率。</li>
+          </ul>
+          <!-- 技術棧標籤 -->
+          <div class="flex flex-wrap gap-2 mt-4 text-xs">
+            <span class="bg-sky-500/10 text-sky-300 px-3 py-1 rounded-lg border border-sky-500/20">Python (FastAPI)</span>
+            <span class="bg-emerald-500/10 text-emerald-300 px-3 py-1 rounded-lg border border-emerald-500/20">PostgreSQL</span>
+            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">Linux / Docker</span>
+            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">異質 API 整合</span>
+          </div>
         </div>
 
         <!-- 遊戲橘子 -->

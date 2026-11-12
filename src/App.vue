@@ -7,6 +7,7 @@ import Architecture from './components/Architecture.vue'
 import HistoryGallery from './components/HistoryGallery.vue'
 import Experience from './components/Experience.vue'
 import SideProjects from './components/SideProjects.vue'
+import Contact from './components/Contact.vue'
 
 // 控制返回頁首按鈕的顯示與隱藏
 const showBackToTop = ref(false)
@@ -57,6 +58,9 @@ onUnmounted(() => {
 
     <!-- 5. 早期經手網站與平台實績 -->
     <HistoryGallery id="history" />
+
+    <!-- 7. 聯繫方式 -->
+    <Contact id="contact" />
     
     <!-- 頁尾 -->
     <footer class="bg-slate-950 py-8 text-center text-slate-500 text-xs border-t border-slate-900">

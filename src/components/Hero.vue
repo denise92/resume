@@ -16,9 +16,11 @@ const isMenuOpen = ref(false)
       <!-- 桌面版導覽連結 -->
       <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
         <a href="#tech" class="hover:text-sky-400 transition">技術棧</a>
+        <a href="#side-projects" class="hover:text-sky-400 transition">個人專案</a>
         <a href="#projects" class="hover:text-sky-400 transition">系統專案</a>
         <a href="#experience" class="hover:text-sky-400 transition">職涯經歷</a>
         <a href="#history" class="hover:text-sky-400 transition">早期專案</a>
+        <a href="#contact" class="hover:text-sky-400 transition">聯絡方式</a>
       </nav>
 
       <!-- 手機版漢堡選單 -->
@@ -29,9 +31,11 @@ const isMenuOpen = ref(false)
     <!-- 手機版展開選單 -->
     <div v-if="isMenuOpen" class="max-w-5xl mx-auto md:hidden bg-slate-800/90 rounded-xl p-4 mb-8 space-y-3 text-sm border border-slate-700">
       <a href="#tech" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400">技術棧</a>
+      <a href="#side-projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400">個人專案</a>
       <a href="#projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400">系統專案</a>
       <a href="#experience" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400">職涯經歷</a>
       <a href="#history" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400">早期專案</a>
+      <a href="#contact" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400">聯絡方式</a>
     </div>
     <!-- Hero 主文內容 -->
     <div class="max-w-4xl mx-auto text-center">
