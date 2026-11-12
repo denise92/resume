@@ -13,7 +13,7 @@
         <!-- 現職：購金車有限公司 -->
         <div class="relative">
           <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-950"></span>
-          <div class="text-xs font-semibold text-sky-400 mb-1">2016/03 ～ 2026/12 (10年10個月)</div>
+          <div class="text-xs font-semibold text-sky-400 mb-1">2016/03 ～ 至今 (10年8個月)</div>
           <h3 class="text-xl font-bold text-white">資深全端工程師 ｜ 購金車有限公司</h3>
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
             負責全端網路程式設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。獨立開發電子發票自動化系統、智慧物流與廣告數據管理系統，並主導跨部門協調與專案執行。
