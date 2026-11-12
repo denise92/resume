@@ -4,7 +4,6 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import Hero from './components/Hero.vue'
 import TechStack from './components/TechStack.vue'
 import Architecture from './components/Architecture.vue'
-// import SystemArchitecture from './components/SystemArchitecture.vue'
 import HistoryGallery from './components/HistoryGallery.vue'
 import Experience from './components/Experience.vue'
 
@@ -50,10 +49,7 @@ onUnmounted(() => {
     <!-- 4. 職涯經歷沿革 -->
     <Experience id="experience" />
 
-    <!-- 5. 系統架構與資料流向圖 -->
-    <!-- <SystemArchitecture /> -->
-
-    <!-- 6. 早期經手網站與平台實績 -->
+    <!-- 5. 早期經手網站與平台實績 -->
     <HistoryGallery id="history" />
     
     <!-- 頁尾 -->
