@@ -13,7 +13,7 @@ const copyEmail = () => {
 </script>
 
 <template>
-  <section id="contact" class="py-24 bg-slate-900 text-white px-6 border-t border-slate-800 relative overflow-hidden">
+  <section class="py-20 bg-slate-900 text-white px-6 border-t border-slate-800 relative overflow-hidden">
     <!-- 背景裝飾光暈 -->
     <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
