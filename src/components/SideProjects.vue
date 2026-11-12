@@ -44,10 +44,12 @@
                 alt="空大學習助手平台" 
                 class="mr-1 p-2 bg-emerald-500/20 text-emerald-400 rounded-xl w-12 h-12 object-contain"
               />
-              空大學習助手平台 
-              <a href="https://nou.rudebao.com.tw" target="_blank" class="text-xs text-sky-400 font-normal hover:underline">
-                (nou.rudebao.com.tw ↗)
-              </a>
+              <div class="flex flex-wrap items-center gap-1">
+                空大學習助手平台 
+                <a href="https://nou.rudebao.com.tw" target="_blank" class="text-xs text-sky-400 font-normal hover:underline">
+                  (nou.rudebao.com.tw ↗)
+                </a>
+              </div>
             </h3>
             <span class="text-xs bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full border border-sky-500/20 w-fit">
               獨立全端開發
