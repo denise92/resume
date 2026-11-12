@@ -6,7 +6,7 @@ import img1758 from '@/assets/images/1758play.jpg'
 import imgJoinBao from '@/assets/images/joinbao.jpg'
 import imgCrazyMike from '@/assets/images/crazymike.jpg'
 import imgJmag from '@/assets/images/jmag.jpg'
-import imgAsuka from '@/assets/images/asuka.jpg'
+// import imgAsuka from '@/assets/images/asuka.jpg'
 import imgWinner from '@/assets/images/winnertek.jpg'
 import imgJjb from '@/assets/images/jjb.jpg'
 
