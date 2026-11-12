@@ -43,12 +43,14 @@ onUnmounted(() => {
     
     <!-- 2. 核心技術棧 -->
     <TechStack id="tech" />
+
+    <!-- 6. 個人側專案與開源貢獻 -->
+    <SideProjects id="side-projects" />
     
     <!-- 3. 購金車三大系統架構 -->
     <Architecture id="projects" />
 
-    <!-- 6. 個人側專案與開源貢獻 -->
-    <SideProjects id="side-projects" />
+    
     
     <!-- 4. 職涯經歷沿革 -->
     <Experience id="experience" />
