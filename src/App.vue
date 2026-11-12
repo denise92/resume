@@ -6,6 +6,7 @@ import TechStack from './components/TechStack.vue'
 import Architecture from './components/Architecture.vue'
 import HistoryGallery from './components/HistoryGallery.vue'
 import Experience from './components/Experience.vue'
+import SideProjects from './components/SideProjects.vue'
 
 // 控制返回頁首按鈕的顯示與隱藏
 const showBackToTop = ref(false)
@@ -45,6 +46,9 @@ onUnmounted(() => {
     
     <!-- 3. 購金車三大系統架構 -->
     <Architecture id="projects" />
+
+    <!-- 6. 個人側專案與開源貢獻 -->
+    <SideProjects id="side-projects" />
     
     <!-- 4. 職涯經歷沿革 -->
     <Experience id="experience" />
