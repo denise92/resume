@@ -1,6 +1,5 @@
 <!-- src/components/SideProjects.vue 範例 -->
 <script setup lang="ts">
-import imgNou from '@/assets/images/nou-logo-ui.png'
 
 </script>
 <template>
