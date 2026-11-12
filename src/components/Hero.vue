@@ -75,7 +75,7 @@ const isModalOpen = ref(false)
       <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">
         徐瑄伶 <span class="text-slate-400 font-normal text-2xl md:text-3xl">(Denise / 阿累)</span>
       </h1>
-      <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto mb-10">
+      <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto">
         專精於高併發電商系統架構、Python (FastAPI) 後端開發、異質 API 整合、自動化工作流與 DevOps (Linux/Docker)，持續透過現代化技術優化企業核心營運效能。
       </p>
     </div>
