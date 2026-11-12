@@ -6,7 +6,7 @@ const isMenuOpen = ref(false)
 
 <template>
   <!-- 固定黏在頂端的導覽列 (桌機與手機共用) -->
-  <header class="fixed top-0 left-0 right-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800/80 transition-all duration-300">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-slate-700/80 backdrop-blur-md border-b border-slate-800/80 transition-all duration-300">
     <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
       <a href="#" class="font-bold text-white flex items-center gap-2 hover:text-sky-400 transition">
         <span class="w-2.5 h-2.5 rounded-full bg-sky-500"></span>

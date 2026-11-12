@@ -26,16 +26,22 @@ const copyEmail = () => {
         尋找資深全端與系統架構夥伴？歡迎與我聯繫
       </h2>
       
-      <p class="text-slate-300 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-        專精於企業核心系統架構升級、Python (FastAPI) 後端開發、自動化工作流建置與系統維運。無論是專案合作或技術交流，歡迎隨時與我聯繫！
-      </p>
+      <!-- 整合進來的「關於我 / 專業摘要」區塊 -->
+      <div class="bg-slate-950/60 border border-slate-800/80 rounded-2xl p-6 md:p-8 mb-10 text-left shadow-lg backdrop-blur-sm">
+        <h3 class="text-sky-400 font-semibold text-sm uppercase tracking-wider mb-2 flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-sky-400"></span> 關於我 (About Me)
+        </h3>
+        <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+          擁有 15 年以上軟體開發與系統維運經驗的全端工程師。從早期底層網管、大型電商平台到企業核心系統架構（購金車電子發票、智慧物流追蹤與廣告數據整合管理系統），具備扎實的後端架構設計、異質 API 整合與 DevOps 實戰能力。熱衷於透過自動化與現代化技術解決實務痛點，並持續在進修與開源專案中保持技術動能。
+        </p>
+      </div>
 
       <!-- 主要互動按鈕群 -->
       <div class="flex flex-col md:flex-row md:flex-wrap justify-center gap-4 mb-12">
         <!-- 發送 Email 按鈕 -->
         <a 
           :href="`mailto:${email}`" 
-          class="bg-sky-600 hover:bg-sky-500 text-white font-medium px-6 py-3.5 rounded-xl transition shadow-lg shadow-sky-900/40 flex items-center gap-2"
+          class="bg-sky-600 hover:bg-sky-500 text-white font-medium px-6 py-3.5 rounded-xl transition shadow-lg shadow-sky-900/40 flex items-center justify-center gap-2"
         >
           <span>📧</span> 寄送 Email
         </a>
@@ -43,7 +49,7 @@ const copyEmail = () => {
         <!-- 一鍵複製 Email 按鈕 -->
         <button 
           @click="copyEmail"
-          class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3.5 rounded-xl transition border border-slate-700 flex items-center gap-2"
+          class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3.5 rounded-xl transition border border-slate-700 flex items-center justify-center gap-2"
         >
           <span>📋</span> {{ copiedEmail ? '已複製 Email !' : '複製 Email 帳號' }}
         </button>
@@ -52,7 +58,7 @@ const copyEmail = () => {
         <a 
           href="https://line.me/ti/p/~denise92" 
           target="_blank" 
-          class="bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 font-medium px-6 py-3.5 rounded-xl transition border border-emerald-500/30 flex items-center gap-2"
+          class="bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 font-medium px-6 py-3.5 rounded-xl transition border border-emerald-500/30 flex items-center justify-center gap-2"
         >
           <span>💬</span> LINE 加好友 (denise92)
         </a>
@@ -61,7 +67,7 @@ const copyEmail = () => {
         <a 
           href="https://github.com/denise92" 
           target="_blank" 
-          class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3.5 rounded-xl transition border border-slate-700 flex items-center gap-2"
+          class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3.5 rounded-xl transition border border-slate-700 flex items-center justify-center gap-2"
         >
           <span>⚡</span> GitHub 倉庫
         </a>
