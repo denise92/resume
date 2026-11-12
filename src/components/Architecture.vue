@@ -1,6 +1,6 @@
 <!-- src/components/Architecture.vue -->
 <template>
-  <section id="projects" class="py-20 bg-slate-900 text-white px-6">
+  <section class="py-20 bg-slate-900 text-white px-6">
     <div class="max-w-5xl mx-auto">
       <div class="mb-12">
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
