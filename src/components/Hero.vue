@@ -64,7 +64,7 @@ const isModalOpen = ref(false)
         />
         <!-- 懸停時提示文字 -->
         <span class="absolute inset-0 flex items-center justify-center bg-black/40 rounded-full opacity-0 group-hover:opacity-100 transition text-xs font-medium text-white">
-          點擊放大 🔍
+          點擊放大預覽
         </span>
       </div>
 
