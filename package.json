@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
+    "dayjs": "^1.11.23",
     "mermaid": "^12.3.0",
     "vue": "^3.5.44"
   },

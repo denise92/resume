@@ -27,11 +27,11 @@ const copyEmail = () => {
       </h2>
       
       <p class="text-slate-300 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-        具備 15 年以上軟體開發與系統維運經驗。無論是企業核心系統架構升級、Python (FastAPI) 後端開發、自動化工作流建置，或是技術交流，歡迎隨時與我交流！
+        專精於企業核心系統架構升級、Python (FastAPI) 後端開發、自動化工作流建置與系統維運。無論是專案合作或技術交流，歡迎隨時與我聯繫！
       </p>
 
       <!-- 主要互動按鈕群 -->
-      <div class="flex flex-wrap justify-center gap-4 mb-12">
+      <div class="flex flex-col md:flex-row md:flex-wrap justify-center gap-4 mb-12">
         <!-- 發送 Email 按鈕 -->
         <a 
           :href="`mailto:${email}`" 

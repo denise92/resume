@@ -6,7 +6,7 @@
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
           進修實作與個人專案 (Side Projects)
         </h2>
-        <p class="text-slate-400 text-sm">結合空大進修生涯與 15 年工程經驗，獨立從零打造的實務應用系統</p>
+        <p class="text-slate-400 text-sm">結合空大進修生涯與豐富的軟體開發與系統架構經驗，獨立從零打造的實務應用系統。</p>
       </div>
 
       <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-sky-500/50 transition shadow-xl">

@@ -1,6 +1,7 @@
 <!-- src/App.vue -->
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
+import dayjs from 'dayjs'
 import Hero from './components/Hero.vue'
 import TechStack from './components/TechStack.vue'
 import Architecture from './components/Architecture.vue'
@@ -8,6 +9,9 @@ import HistoryGallery from './components/HistoryGallery.vue'
 import Experience from './components/Experience.vue'
 import SideProjects from './components/SideProjects.vue'
 import Contact from './components/Contact.vue'
+
+// 動態取得當前年份（例如 2026）
+const currentYear = dayjs().year()
 
 // 控制返回頁首按鈕的顯示與隱藏
 const showBackToTop = ref(false)
@@ -64,7 +68,7 @@ onUnmounted(() => {
     
     <!-- 頁尾 -->
     <footer class="bg-slate-950 py-8 text-center text-slate-500 text-xs border-t border-slate-900">
-      <p>© 2026 徐瑄伶 (Denise) - Senior Full-Stack Portfolio. Built with Vue 3 & Tailwind CSS.</p>
+      <p>© {{ currentYear }} 徐瑄伶 (Denise) - Senior Full-Stack Portfolio. Built with Vue 3 & Tailwind CSS.</p>
     </footer>
 
     <!-- 返回頁首浮動按鈕 -->

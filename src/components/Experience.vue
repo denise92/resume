@@ -6,7 +6,7 @@
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
           職涯經歷沿革 (Experience Track Record)
         </h2>
-        <p class="text-slate-400 text-sm">累積 15 年以上資歷，涵蓋大型電商、遊戲橘子與企業核心系統架構演進</p>
+        <p class="text-slate-400 text-sm">橫跨大型企業核心系統、知名電商與遊戲產業的架構演進史</p>
       </div>
       
       <div class="space-y-12 border-l-2 border-slate-800 pl-6 ml-2">
@@ -136,7 +136,7 @@
             <a href="#history" class="text-xs bg-sky-500/20 text-sky-300 px-2.5 py-0.5 rounded-md ml-2 border border-sky-500/30 hover:bg-sky-500/30 transition">查看作品截圖 ↗</a>
           </h3>
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
-            早期負責主機建置管理、網路安全管理、伺服器（LAMP、DNS、Mail Server）與資料庫維護、電腦軟硬體管理及網站程式設計，為後續 15 年的全端與維運實力打下最扎實的底子。
+            早期負責主機建置管理、網路安全管理、伺服器（LAMP、DNS、Mail Server）與資料庫維護、電腦軟硬體管理及網站程式設計，為後續的全端開發與系統維運實力打下最扎實的底子。
           </p>
           <!-- 技術棧標籤 -->
           <div class="flex flex-wrap gap-2 mt-4 text-xs">
