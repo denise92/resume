@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import dayjs from 'dayjs'
+import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import TechStack from './components/TechStack.vue'
 import Architecture from './components/Architecture.vue'
@@ -44,21 +45,23 @@ onUnmounted(() => {
 <template>
   <main class="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-sky-500 selection:text-white">
     <!-- 1. 個人首頁與定位 -->
+    <Header />
+
     <Hero />
     
     <!-- 2. 核心技術棧 -->
     <TechStack id="tech" />
 
-    <!-- 6. 個人側專案與開源貢獻 -->
-    <SideProjects id="side-projects" />
+    
     
     <!-- 3. 購金車三大系統架構 -->
     <Architecture id="projects" />
-
-    
     
     <!-- 4. 職涯經歷沿革 -->
     <Experience id="experience" />
+
+    <!-- 6. 個人側專案與開源貢獻 -->
+    <SideProjects id="side-projects" />
 
     <!-- 5. 早期經手網站與平台實績 -->
     <HistoryGallery id="history" />

@@ -49,13 +49,14 @@ const projects = ref<ProjectItem[]>([
     description: '負責日文雜誌與書籍商城開發，並一手包辦 LAMP 系統架構、DNS 及郵件伺服器建置與維運。',
     image: imgJmag
   },
-  {
+  /*{
     title: '飛鳥井の部屋 (Akira\'s ACG room)',
     period: '早期 ACG 專案',
     tech: 'PHP, MySQL, osCommerce, Linux',
     description: '基於 osCommerce 電商框架進行客製化開發與動漫主題內容網站建置。',
     image: imgAsuka
   },
+  */
   {
     title: '旺安科技 (Winner Technology)',
     period: '2008/09 - 2008/10',
@@ -95,7 +96,7 @@ const closeModal = () => {
       </div>
 
       <!-- 圖片藝廊網格 -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid md:grid-cols-3 lg:grid-cols-3 gap-8">
         <div 
           v-for="(item, index) in projects" 
           :key="index"

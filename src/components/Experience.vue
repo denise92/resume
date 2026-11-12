@@ -1,6 +1,6 @@
 <!-- src/components/Experience.vue -->
 <template>
-  <section id="experience" class="py-20 bg-slate-950 text-white px-6 border-t border-slate-900">
+  <section class="py-20 bg-slate-950 text-white px-6 border-t border-slate-900">
     <div class="max-w-4xl mx-auto">
       <div class="mb-12">
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
@@ -18,10 +18,13 @@
           <p class="text-slate-400 text-sm mt-2 leading-relaxed">
             負責全端網路程式設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。獨立開發電子發票自動化系統、智慧物流與廣告數據管理系統，並主導跨部門協調與專案執行。
           </p>
-          <ul class="list-disc list-inside text-slate-300 text-sm mt-2 space-y-1.5 leading-relaxed">
-            <li><strong class="text-white">電子發票自動化系統</strong>：獨立開發基於 Python (FastAPI) 與 PostgreSQL 之自動化開立與對帳系統，每月自動處理數萬筆電子發票及 SFTP 檔案拋轉，減少 90% 以上的人工作業與對帳時間。</li>
-            <li><strong class="text-white">智慧物流追蹤系統</strong>：串接多方物流與超商異質 API，運用背景非同步排程實現即時貨態追蹤與數據整合，大幅提升物流異常處理效率。</li>
-            <li><strong class="text-white">廣告數據整合與投放管理系統</strong>：整合各大數位廣告平台（如 Google Ads、Meta 等）之異質 API 與數據流，建立自動化成效彙整與投放管理看板，以數據驅動行銷決策，顯著提升跨渠道廣告數據能見度與投放效率。</li>
+          <ul class="list-disc list-inside text-slate-300 text-sm mt-3 space-y-1.5 leading-relaxed">
+            <li><strong class="text-white">需求分析</strong>：與實際業務需求對應，釐清系統功能及作業流程。</li>
+            <li><strong class="text-white">系統設計</strong>：規劃系統架構、資料處理流程及外部服務整合方式。</li>
+            <li><strong class="text-white">程式開發</strong>：負責核心功能實作、API 串接與自動化流程建置。</li>
+            <li><strong class="text-white">系統整合</strong>：整合內部業務系統與第三方服務。</li>
+            <li><strong class="text-white">上線導入</strong>：將開發完成的系統導入實際企業營運。</li>
+            <li><strong class="text-white">維護優化</strong>：負責系統後續維護、異常處理與功能調整。</li>
           </ul>
           <!-- 技術棧標籤 -->
           <div class="flex flex-wrap gap-2 mt-4 text-xs">
