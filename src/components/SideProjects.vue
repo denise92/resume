@@ -52,7 +52,7 @@
               </div>
             </h3>
             <span class="text-xs bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full border border-sky-500/20 w-fit">
-              獨立全端開發
+              持續更新中
             </span>
           </div>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">

@@ -42,12 +42,12 @@ const closeModal = () => {
       <div class="space-y-12 border-l-2 border-slate-800 pl-6 ml-2">
         <!-- 現職：購金車有限公司 -->
         <div class="relative">
-          <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-950"></span>
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-sky-400 mb-1">2016/03 ～ 至今 (10年8個月)</div>
           <h3 class="text-xl font-bold text-white">資深全端工程師 ｜ 購金車有限公司</h3>
           
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            負責全端網路程式設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。近年更率先將 AI 輔助開發工具（如 Claude、Cursor 等）引入日常工作流程，結合豐富的系統分析經驗，大幅提升網站功能迭代效率、自動化腳本編寫與問題排查速度。獨立開發電子發票自動化系統、智慧物流與廣告數據管理系統，並主導跨部門協調與專案執行。
+            以 Python（FastAPI）+ PostgreSQL + Docker 重新設計電子發票、智慧物流與廣告數據系統。相較前一代 PHP 版本，改善了背景排程與異常重試機制、對帳自動化、多物流商擴充性。
           </p>
           <ul class="list-disc list-inside text-slate-300 text-sm mb-4 space-y-1.5 leading-relaxed">
             <li><strong class="text-white">需求分析</strong>：與實際業務需求對應，釐清系統功能及作業流程。</li>
@@ -60,7 +60,7 @@ const closeModal = () => {
           
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '購金車有限公司：aiB官方網站', period: '2016/03 - 至今', description: '負責全端網路程式設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。近年更率先將 AI 輔助開發工具（如 Claude、Cursor 等）引入日常工作流程，結合豐富的系統分析經驗，大幅提升網站功能迭代效率、自動化腳本編寫與問題排查速度。獨立開發電子發票自動化系統、智慧物流與廣告數據管理系統，並主導跨部門協調與專案執行。', image: imgAib })"
+            @click="openModal({ title: '購金車有限公司：aiB官方網站', period: '2016/03 - 至今', description: '以 Python（FastAPI）+ PostgreSQL + Docker 重新設計電子發票、智慧物流與廣告數據系統。相較前一代 PHP 版本，改善了背景排程與異常重試機制、對帳自動化、多物流商擴充性。', image: imgAib })"
           >
             <img :src="imgAib" alt="aiB官方網站" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -80,7 +80,7 @@ const closeModal = () => {
 
         <!-- 遊戲橘子 -->
         <div class="relative">
-          <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-950"></span>
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2015/09 ～ 2016/03 (7個月)</div>
           <h3 class="text-xl font-bold text-white">資深程式設計師 ｜ 遊戲橘子股份有限公司</h3>
           
@@ -111,17 +111,17 @@ const closeModal = () => {
 
         <!-- 購明系雲科技 -->
         <div class="relative">
-          <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-950"></span>
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2014/08 ～ 2015/8 (1年1個月)</div>
           <h3 class="text-xl font-bold text-white">資深程式設計師 ｜ 購明系雲科技有限公司</h3>
           
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            長期主導旗下質感生活電商品牌「a.m.z 亞瑪勁線上購物」與企業核心系統之全端架構設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。從零到有規劃並獨立開發電子發票自動化系統、智慧物流出貨與貨態追蹤、以及跨平台廣告數據整合管理系統，串接電商營運所需的金流、物流與發票自動化流程，並全面支援平台各項大型促銷活動（如雙 11 檔期）之營運與行銷推廣需求。
+            主導 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '購明系雲科技有限公司：a.m.z 亞瑪勁線上購物', period: '2014/08 - 2015/08', description: '長期主導旗下質感生活電商品牌「a.m.z 亞瑪勁線上購物」與企業核心系統之全端架構設計、網站系統開發、主機維運（Linux/Docker）與資料庫管理。從零到有規劃並獨立開發電子發票自動化系統、智慧物流出貨與貨態追蹤、以及跨平台廣告數據整合管理系統，串接電商營運所需的金流、物流與發票自動化流程，並全面支援平台各項大型促銷活動（如雙 11 檔期）之營運與行銷推廣需求。', image: imgAmz })"
+            @click="openModal({ title: '購明系雲科技有限公司：a.m.z 亞瑪勁線上購物', period: '2014/08 - 2015/08', description: '主導 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。', image: imgAmz })"
           >
             <img :src="imgAmz" alt="a.m.z 亞瑪勁線上購物" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -141,24 +141,24 @@ const closeModal = () => {
 
         <!-- 東方鴻展 (1758play) -->
         <div class="relative">
-          <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2012/12 ～ 2013/07 (8個月)</div>
           <h3 class="text-xl font-bold text-white">
             PHP程式設計師 ｜ 東方鴻展遊戲有限公司
           </h3>
 
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            參與台灣早期指標性遊戲與數位內容商城平台（1758play）之營運與開發。負責核心網路程式設計、網站前端視覺與互動架構建置，並執行嚴格的網路安全維護與主機高可用性管理。運用 PHP、MySQL、Smarty 樣板引擎與 MVC 架構，確保遊戲商城在多款熱門線上遊戲發行與點數交易期間的系統穩定性與流暢的會員體驗。
+            參與遊戲與數位內容商城平台（1758play）之營運與開發。負責核心網路程式設計、網站前端視覺與互動架構建置，並執行嚴格的網路安全維護與主機高可用性管理。運用 PHP、MySQL、Smarty 樣板引擎與 MVC 架構，確保遊戲商城在多款熱門線上遊戲發行與點數交易期間的系統穩定性與流暢的會員體驗。
           </p>
 
           <!-- 內嵌實績預覽卡片 -->
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '東方鴻展遊戲有限公司：1758play', period: '2012/12 - 2013/07', description: '參與台灣早期指標性遊戲與數位內容商城平台（1758play）之營運與開發。負責核心網路程式設計、網站前端視覺與互動架構建置，並執行嚴格的網路安全維護與主機高可用性管理。運用 PHP、MySQL、Smarty 樣板引擎與 MVC 架構，確保遊戲商城在多款熱門線上遊戲發行與點數交易期間的系統穩定性與流暢的會員體驗。', image: img1758 })"
+            @click="openModal({ title: '東方鴻展遊戲有限公司：1758play', period: '2012/12 - 2013/07', description: '參與遊戲與數位內容商城平台（1758play）之營運與開發。負責核心網路程式設計、網站前端視覺與互動架構建置，並執行嚴格的網路安全維護與主機高可用性管理。運用 PHP、MySQL、Smarty 樣板引擎與 MVC 架構，確保遊戲商城在多款熱門線上遊戲發行與點數交易期間的系統穩定性與流暢的會員體驗。', image: img1758 })"
           >
             <img :src="img1758" alt="1758play" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
-              <span class="text-xs text-sky-400 font-semibold">http://1758.1758play.com/</span>
+              <span class="text-xs text-sky-400 font-semibold">(closed;1) http://1758.1758play.com/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">1758play 數位內容商城</h4>
             </div>
           </div>
@@ -176,22 +176,22 @@ const closeModal = () => {
 
         <!-- 網勁科技 (荷包網) -->
         <div class="relative">
-          <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2011/10 ～ 2012/11 (1年2個月)</div>
           <h3 class="text-xl font-bold text-white mb-2">
             PHP程式設計師 ｜ 網勁科技股份有限公司（ECnet）
           </h3>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-4">
-            參與台灣早期指標性跨國網購商城與社群電商平台（荷包網）之系統開發與維運。面對龐大商品目錄與複雜的使用者互動需求，負責深度的資料庫查詢優化、核心網路程式設計與日常系統安全防護，確保高流量與跨國資料交換下的平台穩定度與交易安全。
+            參與跨國網購商城與社群電商平台（荷包網）之系統開發與維運。面對龐大商品目錄與複雜的使用者互動需求，負責深度的資料庫查詢優化、核心網路程式設計與日常系統安全防護，確保高流量與跨國資料交換下的平台穩定度與交易安全。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '網勁科技股份有限公司（ECnet）：荷包網 (JoinBao) 商城', period: '2011/10 - 2012/11', description: '參與台灣早期指標性跨國網購商城與社群電商平台（荷包網）之系統開發與維運。面對龐大商品目錄與複雜的使用者互動需求，負責深度的資料庫查詢優化、核心網路程式設計與日常系統安全防護，確保高流量與跨國資料交換下的平台穩定度與交易安全。', image: imgJoinBao })"
+            @click="openModal({ title: '網勁科技股份有限公司（ECnet）：荷包網 (JoinBao) 商城', period: '2011/10 - 2012/11', description: '參與跨國網購商城與社群電商平台（荷包網）之系統開發與維運。面對龐大商品目錄與複雜的使用者互動需求，負責深度的資料庫查詢優化、核心網路程式設計與日常系統安全防護，確保高流量與跨國資料交換下的平台穩定度與交易安全。', image: imgJoinBao })"
           >
             <img :src="imgJoinBao" alt="荷包網 (JoinBao) 商城" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
-              <span class="text-xs text-sky-400 font-semibold">http://www.joinbao.com/</span>
+              <span class="text-xs text-sky-400 font-semibold">(closed) http://www.joinbao.com/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">荷包網 (JoinBao) 商城</h4>
             </div>
           </div>
@@ -206,18 +206,18 @@ const closeModal = () => {
 
         <!-- 瘋狂賣客 -->
         <div class="relative">
-          <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2011/01 ～ 2011/10 (10個月)</div>
           <h3 class="text-xl font-bold text-white mb-2">
             PHP程式設計師 ｜ 網勁科技股份有限公司
           </h3>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-4">
-            參與台灣早期最具代表性之「每日一物」團購與奇特選品電商平台。負責核心系統架構維運與前端效能優化，應對每日特賣開檔時瞬間湧入的龐大流量挑戰，並執行日常網站安全維護與資料庫查詢優化，確保高併發情境下的交易流暢與資安防護。
+            參與具代表性之「每日一物」團購與奇特選品電商平台。負責核心系統架構維運與前端效能優化，應對每日特賣開檔時瞬間湧入的龐大流量挑戰，並執行日常網站安全維護與資料庫查詢優化，確保高併發情境下的交易流暢與資安防護。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '網勁科技股份有限公司：瘋狂賣客 (CrazyMike)', period: '2011/01 - 2011/10', description: '參與台灣早期最具代表性之「每日一物」團購與奇特選品電商平台。負責核心系統架構維運與前端效能優化，應對每日特賣開檔時瞬間湧入的龐大流量挑戰，並執行日常網站安全維護與資料庫查詢優化，確保高併發情境下的交易流暢與資安防護。', image: imgCrazyMike })"
+            @click="openModal({ title: '網勁科技股份有限公司：瘋狂賣客 (CrazyMike)', period: '2011/01 - 2011/10', description: '參與具代表性之「每日一物」團購與奇特選品電商平台。負責核心系統架構維運與前端效能優化，應對每日特賣開檔時瞬間湧入的龐大流量挑戰，並執行日常網站安全維護與資料庫查詢優化，確保高併發情境下的交易流暢與資安防護。', image: imgCrazyMike })"
           >
             <img :src="imgCrazyMike" alt="瘋狂賣客" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -234,15 +234,15 @@ const closeModal = () => {
           </div>
         </div>
 
-        <!-- 早期基礎：永漢國際書局 & 藝游館 -->
+        <!-- 基礎：永漢國際書局 & 藝游館 -->
         <div class="relative">
-          <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-800 border-4 border-slate-950"></span>
-          <div class="text-xs font-semibold text-slate-400 mb-1">2005/03 ～ 2010/12 (累積 6 年系統與網管資歷)</div>
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-800 border-4 border-slate-950"></span>
+          <div class="text-xs font-semibold text-slate-400 mb-1">2005/03 ～ 2010/12 (5年10個月)</div>
           <h3 class="text-xl font-bold text-white">
             網路工程師與 MIS 主管 ｜ 永漢國際書局 & 藝游館文化事業
           </h3>
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            長期負責台灣日語教育與日文書籍引進先驅——永漢國際書局旗下知名指標平台「Qbooks 日文雜誌 MOOK 網路書店」之系統開發與全方位資訊架構維運。一手包辦 LAMP 伺服器環境架構設計、DNS 與郵件伺服器（Mail Server）建置管理、網路與資訊安全維護、資料庫管理以及商城網站程式設計，為後續多年橫跨大型企業、電商與遊戲產業的全端開發與系統維運實力，打下最深厚且扎實的技術底子。
+            負責台灣日語教育與日文書籍引進先驅——永漢國際書局旗下知名指標平台「Qbooks 日文雜誌 MOOK 網路書店」之系統開發與全方位資訊架構維運。一手包辦 LAMP 伺服器環境架構設計、DNS 與郵件伺服器（Mail Server）建置管理、網路與資訊安全維護、資料庫管理以及商城網站程式設計，為後續多年橫跨大型企業、電商與遊戲產業的全端開發與系統維運實力，打下最深厚且扎實的技術底子。
           </p>
 
           <div 

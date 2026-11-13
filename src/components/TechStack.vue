@@ -15,6 +15,8 @@
           <div class="flex flex-wrap gap-2">
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Python</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">FastAPI</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">SQLModel</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Poetry</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">PHP</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">OpenCart</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Laravel</span>
@@ -30,11 +32,14 @@
           <div class="flex flex-wrap gap-2">
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">jQuery</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Bootstrap</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Vite</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Vue.js</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">React</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">TypeScript</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">HTML5</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Tailwind CSS</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Ant Design </span>
+            
           </div>
         </div>
 
