@@ -63,9 +63,6 @@ onUnmounted(() => {
     <!-- 6. 個人側專案與開源貢獻 -->
     <SideProjects id="side-projects" />
 
-    <!-- 5. 早期經手網站與平台實績 -->
-    <HistoryGallery id="history" />
-
     <!-- 7. 聯繫方式 -->
     <Contact id="contact" />
     

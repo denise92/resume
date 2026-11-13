@@ -19,7 +19,6 @@ const isMenuOpen = ref(false)
         <a href="#projects" class="hover:text-sky-400 transition">核心系統</a>
         <a href="#experience" class="hover:text-sky-400 transition">職涯經歷</a>
         <a href="#side-projects" class="hover:text-sky-400 transition">學歷背景</a>
-        <a href="#history" class="hover:text-sky-400 transition">歷史專案</a>
         <a href="#contact" class="hover:text-sky-400 transition">聯絡方式</a>
       </nav>
 
@@ -35,7 +34,6 @@ const isMenuOpen = ref(false)
       <a href="#projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">核心系統</a>
       <a href="#experience" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">職涯經歷</a>
       <a href="#side-projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">學歷背景</a>
-      <a href="#history" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">歷史專案</a>
       <a href="#contact" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">聯絡方式</a>
     </div>
   </header>
