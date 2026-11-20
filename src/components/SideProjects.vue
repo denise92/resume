@@ -55,8 +55,17 @@
             </span>
           </div>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
-            我獨立開發、給空大同學用的學習輔助平台，把課堂上學的系統分析與資料庫設計直接拿來實作。前端 Vue 3 + TypeScript，後端 FastAPI，用 Docker Compose 部署在自己的主機。
+            我獨立開發、給空大同學用的學習輔助平台，目前正式環境有 626 位學員。把課堂上學的系統分析與資料庫設計直接拿來實作，前端 Vue 3 + TypeScript，後端 FastAPI，用 Docker Compose 部署在自己的主機。
           </p>
+          <ul class="list-disc list-inside text-slate-300 text-sm mb-6 space-y-1.5 leading-relaxed">
+            <li><strong class="text-white">學分計算器</strong>：查各學期開課、即時試算學分，並提醒面授衝堂。</li>
+            <li><strong class="text-white">畢業進度</strong>：記錄已修課程，依入學年度的畢業規則算出還差多少學分。</li>
+            <li><strong class="text-white">學分學程進度</strong>：對照各學系學程，列出還差哪些科目。</li>
+            <li><strong class="text-white">空大行事曆</strong>：整理選課、開播與考試日期，可訂閱到手機行事曆。</li>
+            <li><strong class="text-white">二手書交流</strong>：學員之間買賣、交換教科書，有配對通知。</li>
+            <li><strong class="text-white">課表分享</strong>：一鍵產生修課清單連結，同學可直接匯入。</li>
+          </ul>
+          <p class="text-slate-400 text-sm mb-6">支援 LINE / email 登入，可加到手機主畫面當 App 使用。</p>
           <div class="flex flex-wrap gap-2 text-xs">
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Vue 3</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">TypeScript</span>
