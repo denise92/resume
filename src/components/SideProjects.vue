@@ -5,7 +5,7 @@
       <!-- 區塊標題 -->
       <div class="mb-12">
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
-          學歷與個人專案 (Education & Side Projects)
+          學歷與個人專案
         </h2>
       </div>
 
@@ -64,7 +64,6 @@
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Python / FastAPI</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Linux / Nginx</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Docker Compose</span>
-            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Nginx</span>
           </div>
         </div>
       </div>

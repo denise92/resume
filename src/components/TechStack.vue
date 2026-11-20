@@ -3,7 +3,7 @@
   <section class="py-20 bg-slate-950 text-white px-6 border-t border-slate-900">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-2xl md:text-3xl font-bold mb-10 border-l-4 border-sky-500 pl-4">
-        核心技術棧 (Tech Stack)
+        技術棧
       </h2>
       
       <!-- 調整為 6 大分類網格 (md:grid-cols-2 lg:grid-cols-3) -->
@@ -28,15 +28,15 @@
         <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
           <h3 class="text-emerald-400 font-semibold mb-3">Frontend</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">jQuery</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Bootstrap</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Vite</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Vue.js</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">TypeScript</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">HTML5</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Vite</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Tailwind CSS</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Ant Design </span>
-            
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Ant Design</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">HTML5</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Bootstrap</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">jQuery</span>
+
           </div>
         </div>
 
@@ -56,11 +56,10 @@
         <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
           <h3 class="text-purple-400 font-semibold mb-3">DevOps & Infrastructure</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">CentOS</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Ubuntu</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Docker / Compose</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Compose</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Nginx</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Ubuntu</span>
+            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">CentOS</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Google Cloud Platform (GCP)</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Linode VPS</span>
           </div>

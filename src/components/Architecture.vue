@@ -119,7 +119,7 @@ const advertising = ref(false)
             </div>
           </div>
           <div class="flex flex-wrap gap-2 text-xs">
-            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Meta & Google Ads SDK</span>
+            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Meta / Google Ads API</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">營運分析報表</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">後台 UX 流程優化</span>
           </div>
