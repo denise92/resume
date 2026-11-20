@@ -51,7 +51,7 @@ const closeModal = () => {
           <ul class="list-disc list-inside text-slate-300 text-sm mb-4 space-y-1.5 leading-relaxed">
             <li><strong class="text-white">電子發票</strong>：平均每天自動開立 100 張以上，失敗時自動重試並通知，月底對帳自動產出報表。</li>
             <li><strong class="text-white">物流</strong>：串接 10 家物流商，包含 7-11、全家、萊爾富、OK 四大超商，以及黑貓、新竹、大榮、嘉里、順豐、中華郵政 6 家宅配；同步出貨並追蹤配送狀態，新增物流商不必改動核心流程。</li>
-            <li><strong class="text-white">廣告</strong>：串接 Meta / Google Ads API，每日自動拉回成效數據，產出營運報表。</li>
+            <li><strong class="text-white">廣告</strong>：透過企業帳號授權（OAuth）串接 Meta / Google Ads API，統一管理旗下所有粉絲專頁與廣告帳號，每日自動拉回成效數據並產出營運報表。</li>
             <li><strong class="text-white">全程負責</strong>：從需求訪談、設計、開發到上線與維運。</li>
           </ul>
           
@@ -59,7 +59,7 @@ const closeModal = () => {
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
             @click="openModal({ title: '購金車有限公司：aiB官方網站', period: '2016/03 - 至今', description: '以 Python（FastAPI）+ PostgreSQL + Docker 重寫電子發票、物流與廣告數據系統。延續我在 a.m.z 以 PHP 建置第一代的經驗，這次改善了背景排程與失敗重試、對帳自動化，以及新增物流商的擴充性。', image: imgAib })"
           >
-            <img :src="imgAib" alt="aiB官方網站" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+            <img data-print="hide" :src="imgAib" alt="aiB官方網站" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
               <span class="text-xs text-sky-400 font-semibold">https://www.aib.tw/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">aiB官方網站</h4>
@@ -89,7 +89,7 @@ const closeModal = () => {
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
             @click="openModal({ title: '遊戲橘子股份有限公司：遊戲橘子', period: '2015/09 - 2016/03', description: '負責手機遊戲後端維運與版本更新，包含《召喚圖板》《五四三國誌》《龍族撲克》等，處理第三方 API 串接。使用 PHP（Zend Framework、Laravel、Lumen）。', image: imgBeanfun })"
           >
-            <img :src="imgBeanfun" alt="遊戲橘子" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+            <img data-print="hide" :src="imgBeanfun" alt="遊戲橘子" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
               <span class="text-xs text-sky-400 font-semibold">https://tw.beanfun.com/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">遊戲橘子</h4>
@@ -120,7 +120,7 @@ const closeModal = () => {
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
             @click="openModal({ title: '購明系雲科技有限公司：a.m.z 亞瑪勁線上購物', period: '2014/08 - 2015/08', description: '負責 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 負責建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。', image: imgAmz })"
           >
-            <img :src="imgAmz" alt="a.m.z 亞瑪勁線上購物" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+            <img data-print="hide" :src="imgAmz" alt="a.m.z 亞瑪勁線上購物" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
               <span class="text-xs text-sky-400 font-semibold">https://www.amz.tw/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">a.m.z 亞瑪勁線上購物</h4>
@@ -153,7 +153,7 @@ const closeModal = () => {
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
             @click="openModal({ title: '東方鴻展遊戲有限公司：1758play', period: '2012/12 - 2013/07', description: '負責遊戲點數商城 1758play 的 PHP 開發（MVC、Smarty）與前端頁面，並維護 Linux 主機。', image: img1758 })"
           >
-            <img :src="img1758" alt="1758play" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+            <img data-print="hide" :src="img1758" alt="1758play" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
               <span class="text-xs text-sky-400 font-semibold">(closed) http://1758.1758play.com/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">1758play 數位內容商城</h4>
@@ -186,7 +186,7 @@ const closeModal = () => {
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
             @click="openModal({ title: '網勁科技股份有限公司（ECnet）：荷包網 (JoinBao) 商城', period: '2011/10 - 2012/11', description: '負責跨國購物商城「荷包網」的 PHP 開發與維運，處理 PostgreSQL 查詢效能調整與 Discuz 社群模組。', image: imgJoinBao })"
           >
-            <img :src="imgJoinBao" alt="荷包網 (JoinBao) 商城" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+            <img data-print="hide" :src="imgJoinBao" alt="荷包網 (JoinBao) 商城" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
               <span class="text-xs text-sky-400 font-semibold">(closed) http://www.joinbao.com/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">荷包網 (JoinBao) 商城</h4>
@@ -216,7 +216,7 @@ const closeModal = () => {
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
             @click="openModal({ title: '地壹創媒：瘋狂賣客 (CrazyMike)', period: '2011/01 - 2011/10', description: '負責「每日一物」團購網站的 PHP 開發與主機維運。每日特賣開檔時流量集中，負責資料庫查詢與前端效能調整，讓網站撐住尖峰。', image: imgCrazyMike })"
           >
-            <img :src="imgCrazyMike" alt="瘋狂賣客" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+            <img data-print="hide" :src="imgCrazyMike" alt="瘋狂賣客" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
               <span class="text-xs text-sky-400 font-semibold">http://crazymike.tw/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">瘋狂賣客團購網</h4>
@@ -245,7 +245,7 @@ const closeModal = () => {
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
             @click="openModal({ title: '永漢國際書局：Qbooks 日文雜誌 MOOK 網路書店', period: '2005/03 - 2010/12', description: '負責「Qbooks 日文雜誌 MOOK 網路書店」的程式開發，以及公司內部 IT：架設 LAMP 環境、DNS 與郵件伺服器，並負責網路安全與資料庫管理。', image: imgJmag })"
           >
-            <img :src="imgJmag" alt="永漢國際書局" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+            <img data-print="hide" :src="imgJmag" alt="永漢國際書局" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
               <span class="text-xs text-sky-400 font-semibold">http://www.qbooks.com.tw/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">Qbooks 日文雜誌 MOOK 網路書店</h4>

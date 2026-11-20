@@ -7,7 +7,7 @@ const isModalOpen = ref(false)
 <template>
   <!-- Hero 主文內容區塊 (加上 pt-28 確保不會被 fixed 導覽列遮擋) -->
   <section class="bg-slate-900 text-white pt-32 px-6 mb-5 relative">
-    <div class="absolute inset-x-0 top-0 bottom-[-50px] z-0 overflow-hidden pointer-events-none">
+    <div data-print="hide" class="absolute inset-x-0 top-0 bottom-[-50px] z-0 overflow-hidden pointer-events-none">
       <img 
         src="@/assets/images/cover.webp" 
         alt="Diving Background" 
@@ -27,7 +27,7 @@ const isModalOpen = ref(false)
           class="relative w-28 h-28 md:w-32 md:h-32 rounded-full object-cover border-2 border-slate-800 shadow-2xl"
         />
         <!-- 懸停時提示文字 -->
-        <span class="absolute inset-0 flex items-center justify-center bg-black/40 rounded-full opacity-0 group-hover:opacity-100 transition text-xs font-medium text-white">
+        <span data-print="hide" class="absolute inset-0 flex items-center justify-center bg-black/40 rounded-full opacity-0 group-hover:opacity-100 transition text-xs font-medium text-white">
           點擊放大預覽
         </span>
       </div>
