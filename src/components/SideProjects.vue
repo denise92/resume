@@ -55,7 +55,7 @@
             </span>
           </div>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
-            結合空大進修生涯所學之系統架構與資料庫設計理念，獨立從零打造的實務應用系統。提供學員更高效的學習資源整合與輔助互動體驗，驗證現代化前端與後端協作的最佳實踐。
+            我獨立開發、給空大同學用的學習輔助平台，把課堂上學的系統分析與資料庫設計直接拿來實作。前端 Vue 3 + TypeScript，後端 FastAPI，用 Docker Compose 部署在自己的主機。
           </p>
           <div class="flex flex-wrap gap-2 text-xs">
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Vue 3</span>

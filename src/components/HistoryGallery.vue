@@ -46,7 +46,7 @@ const projects = ref<ProjectItem[]>([
     title: '永漢國際書局：Qbooks 日文雜誌 MOOK 網路書店',
     period: '2008/11 - 2010/12',
     tech: 'PHP, MySQL, SEO, LAMP, DNS, Mail Server, Linux',
-    description: '負責日文雜誌與書籍商城開發，並一手包辦 LAMP 系統架構、DNS 及郵件伺服器建置與維運。',
+    description: '負責日文雜誌與書籍商城開發，並負責 LAMP 環境、DNS 及郵件伺服器建置與維運。',
     image: imgJmag
   },
   /*{
