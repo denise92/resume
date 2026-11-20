@@ -5,10 +5,11 @@
 ## Git / PR 流程（覆寫全域「不准 merge PR」）
 
 1. 每個任務照樣開新 branch、commit、push、開 PR，PR 說明放在 `docs/pull-requests/`。
-2. **建立 PR 之後，直接合併到 `main`**（`gh pr merge <PR 編號> --merge`），不需要另外詢問。
+2. **建立 PR 之後，直接合併到 `main`，並刪除該 branch**（`gh pr merge <PR 編號> --merge --delete-branch`），不需要另外詢問。
 3. 合併前必須先通過 `npm run build`。build 失敗不准合併，要先回報。
-4. 合併後把本機 `main` 同步（`git pull --ff-only`）。
-5. 仍然不准 force push，也不准 rewrite `main` 的歷史。
+4. 合併後把本機 `main` 同步（`git pull --ff-only`），並執行 `git fetch --prune origin`。
+5. **已合併的 branch 一律直接刪除**（本機和 GitHub 都要刪），不需要另外詢問。只能刪除已經合併進 `main` 的 branch（用 `git branch --merged main` 確認），**絕對不能刪除 `main` 和 `gh-pages`**。
+6. 仍然不准 force push，也不准 rewrite `main` 的歷史。
 
 ## 部署（上線）
 
