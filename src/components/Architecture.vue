@@ -32,7 +32,7 @@ const advertising = ref(false)
           </div>
 
           <div data-print="expand" class="text-slate-300 text-sm leading-relaxed mb-6" :class="invoice ? 'block' : 'hidden'">
-            <p>串接網站訂單與財政部發票eTrunkey，將開立、作廢、折讓、註銷自動化，平均每天開立 100 張以上。</p>
+            <p>串接網站訂單與財政部電子發票 Turnkey，將開立、作廢、折讓、註銷自動化，平均每天開立 100 張以上。</p>
 
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
               <li><strong class="text-white">系統整合</strong>：透過 API、SFTP 與 Webhook 串接外部服務與內部系統。</li>
