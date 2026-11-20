@@ -118,7 +118,7 @@ const closeModal = () => {
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '購明系雲科技有限公司：a.m.z 亞瑪勁線上購物', period: '2014/08 - 2015/08', description: '主導 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。', image: imgAmz })"
+            @click="openModal({ title: '購明系雲科技有限公司：a.m.z 亞瑪勁線上購物', period: '2014/08 - 2015/08', description: '參與 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。', image: imgAmz })"
           >
             <img :src="imgAmz" alt="a.m.z 亞瑪勁線上購物" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -214,11 +214,7 @@ const closeModal = () => {
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-<<<<<<< HEAD
-            @click="openModal({ title: '地壹創媒：瘋狂賣客 (CrazyMike)', period: '2011/01 - 2011/10', description: '參與具代表性之「每日一物」團購與奇特選品電商平台。負責核心系統架構維運與前端效能優化，應對每日特賣開檔時瞬間湧入的龐大流量挑戰，並執行日常網站安全維護與資料庫查詢優化，確保高併發情境下的交易流暢與資安防護。', image: imgCrazyMike })"
-=======
             @click="openModal({ title: '地壹創媒：瘋狂賣客 (CrazyMike)', period: '2011/01 - 2011/10', description: '負責「每日一物」團購網站的 PHP 開發與主機維運。每日特賣開檔時流量集中，負責資料庫查詢與前端效能調整，讓網站撐住尖峰。', image: imgCrazyMike })"
->>>>>>> 806c568dcc0335123b801426f0c8a27fa11aea52
           >
             <img :src="imgCrazyMike" alt="瘋狂賣客" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>

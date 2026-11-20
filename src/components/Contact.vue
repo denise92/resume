@@ -23,11 +23,7 @@ const email = 'rei7092@gmail.com'
       </span>
       
       <h2 class="text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-6">
-<<<<<<< HEAD
-        尋找資深全端工程師或系統整合夥伴嗎？歡迎聯繫。
-=======
         歡迎來信聊聊
->>>>>>> 806c568dcc0335123b801426f0c8a27fa11aea52
       </h2>
       
       <!-- 整合進來的「關於我 / 專業摘要」區塊 -->
@@ -37,12 +33,7 @@ const email = 'rei7092@gmail.com'
         </h3>
         <p class="text-slate-300 text-sm md:text-base leading-relaxed">
           我習慣從營運現場找問題：哪個流程最耗人力、哪個環節最常出錯，再用最合適的技術把它自動化。從早期的網管與 LAMP 維運，到兩度建置電商核心系統，我熟悉一套系統如何上線、如何撐過大流量，也知道如何在下一代把它做得更好。<br><br>
-<<<<<<< HEAD
-          <span class="text-sky-300 font-medium">工作之餘：</span>
-            喜歡休閒潛水，水下的環境教會我保持冷靜、按部就班地處理突發狀況。
-=======
           <span class="text-sky-300 font-medium">工作之餘：</span>喜歡休閒潛水，水下的環境教會我保持冷靜、按部就班地處理突發狀況。
->>>>>>> 806c568dcc0335123b801426f0c8a27fa11aea52
         </p>
       </div>
 
