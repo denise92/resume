@@ -32,14 +32,12 @@ const advertising = ref(false)
           </div>
 
           <div data-print="expand" class="text-slate-300 text-sm leading-relaxed mb-6" :class="invoice ? 'block' : 'hidden'">
-            <p>簡化繁雜的發票處理流程，將開立、作廢、折讓、註銷等操作自動化，串接網站訂單與財政部發票eTrunkey，降低人工操作及跨系統資料處理的複雜度。</p>
+            <p>串接網站訂單與財政部發票eTrunkey，將開立、作廢、折讓、註銷自動化，平均每天開立 100 張以上。</p>
 
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
-              <li><strong class="text-white">系統整合</strong>：透過 API、SFTP 與 Webhook 整合外部服務及內部系統。</li>
-              <li><strong class="text-white">自動化開立</strong>：建立電子發票自動開立與資料處理流程。</li>
-              <li><strong class="text-white">背景排程</strong>：使用背景排程處理定期或非同步作業。</li>
-              <li><strong class="text-white">異常處理</strong>：建立錯誤處理與異常追蹤機制。</li>
-              <li><strong class="text-white">帳務對帳</strong>：整合發票資料與相關交易資訊，支援帳務核對作業。</li>
+              <li><strong class="text-white">系統整合</strong>：透過 API、SFTP 與 Webhook 串接外部服務與內部系統。</li>
+              <li><strong class="text-white">排程與重試</strong>：背景排程自動開立，失敗時自動重試並通知。</li>
+              <li><strong class="text-white">對帳報表</strong>：月底自動產出對帳報表。</li>
             </ul>
 
             <!-- 內嵌系統截圖預覽 -->
@@ -68,14 +66,12 @@ const advertising = ref(false)
           </div>
           
           <div data-print="expand" class="text-slate-300 text-sm leading-relaxed mb-6" :class="logistics ? 'block' : 'hidden'">
-            <p>為整合企業出貨作業與物流配送資訊，開發物流資料串接及貨態追蹤系統，透過物流服務 API 同步出貨資料與配送狀態，建立從出貨到配送進度查詢的資訊整合流程。</p>
+            <p>串接 4 家超商取貨與 6 家宅配物流商，同步出貨資料並追蹤配送狀態。</p>
 
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
-              <li><strong class="text-white">物流 API 整合</strong>：串接 4 家超商取貨與 6 家宅配物流服務，取得及交換配送資訊。</li>
-              <li><strong class="text-white">出貨資料同步</strong>：整合內部訂單與物流出貨資料。</li>
-              <li><strong class="text-white">貨態追蹤</strong>：接收並更新物流配送狀態。</li>
-              <li><strong class="text-white">資料整合</strong>：建立內部業務資料與外部物流資訊的對應關係。</li>
-              <li><strong class="text-white">流程維護</strong>：維護物流資料同步與貨態更新機制。</li>
+              <li><strong class="text-white">出貨同步</strong>：內部訂單與物流商出貨資料自動同步。</li>
+              <li><strong class="text-white">貨態追蹤</strong>：接收並更新配送狀態。</li>
+              <li><strong class="text-white">擴充性</strong>：新增物流商不必改動核心流程。</li>
             </ul>
 
             <!-- 內嵌系統截圖預覽 -->
@@ -102,14 +98,11 @@ const advertising = ref(false)
           </div>
           
           <div data-print="expand" class="text-slate-300 text-sm leading-relaxed mb-6" :class="advertising ? 'block' : 'hidden'">
-            <p>針對企業廣告投放管理與成效資料整合需求，開發廣告平台資料串接及管理系統，整合不同廣告平台的數據資訊，提供集中化的廣告管理與報表資料。</p>
-            
+            <p>透過企業帳號授權（OAuth）串接 Meta / Google Ads API，統一管理旗下所有粉絲專頁與廣告帳號。</p>
+
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
-              <li><strong class="text-white">平台 API 串接</strong>：整合第三方廣告平台 API，取得廣告相關數據。</li>
-              <li><strong class="text-white">數據整合</strong>：彙整不同平台的廣告資料，建立統一的資料管理流程。</li>
-              <li><strong class="text-white">投放管理</strong>：整合廣告活動與投放管理資訊。</li>
-              <li><strong class="text-white">報表呈現</strong>：整理廣告數據，提供管理與成效檢視所需的報表資訊。</li>
-              <li><strong class="text-white">系統維護</strong>：維護平台資料同步與整合流程。</li>
+              <li><strong class="text-white">數據同步</strong>：每日自動拉回各平台成效數據。</li>
+              <li><strong class="text-white">營運報表</strong>：彙整成效數據，產出營運分析報表。</li>
             </ul>
 
             <!-- 內嵌系統截圖預覽 -->
