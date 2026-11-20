@@ -1,11 +1,13 @@
 <!-- src/components/Architecture.vue -->
 <script lang="ts" setup>
 import { ref } from 'vue'
+import invoiceImg from '@/assets/images/invoice.png'
+import logisticsImg from '@/assets/images/logistics.png'
+import advertisingImg from '@/assets/images/advertising.png'
 
 const invoice = ref(false)
 const logistics = ref(false)
 const advertising = ref(false)
-
 </script>
 
 <template>
@@ -30,7 +32,7 @@ const advertising = ref(false)
           </div>
 
           <div class="text-slate-300 text-sm leading-relaxed mb-6" :class="invoice ? 'block' : 'hidden'">
-            <p>針對企業電子發票開立、資料交換及帳務核對需求，設計並開發自動化處理系統，整合外部發票服務與內部業務流程，降低人工操作及跨系統資料處理的複雜度。</p>
+            <p>簡化繁雜的發票處理流程，將開立、作廢、折讓、註銷等操作自動化，串接網站訂單與財政部發票eTrunkey，降低人工操作及跨系統資料處理的複雜度。</p>
 
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
               <li><strong class="text-white">系統整合</strong>：透過 API、SFTP 與 Webhook 整合外部服務及內部系統。</li>
@@ -39,6 +41,12 @@ const advertising = ref(false)
               <li><strong class="text-white">異常處理</strong>：建立錯誤處理與異常追蹤機制。</li>
               <li><strong class="text-white">帳務對帳</strong>：整合發票資料與相關交易資訊，支援帳務核對作業。</li>
             </ul>
+
+            <!-- 內嵌系統截圖預覽 -->
+            <div class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
+              <div class="text-xs text-sky-400 font-semibold mb-2 px-2">🖥️ 系統後台管理介面實機畫面</div>
+              <img :src="invoiceImg" alt="電子發票系統截圖" class="w-full h-auto rounded-lg object-contain border border-slate-800" />
+            </div>
           </div>
 
           <div class="flex flex-wrap gap-2 text-xs">
@@ -69,6 +77,12 @@ const advertising = ref(false)
               <li><strong class="text-white">資料整合</strong>：建立內部業務資料與外部物流資訊的對應關係。</li>
               <li><strong class="text-white">流程維護</strong>：維護物流資料同步與貨態更新機制。</li>
             </ul>
+
+            <!-- 內嵌系統截圖預覽 -->
+            <div class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
+              <div class="text-xs text-emerald-400 font-semibold mb-2 px-2">🖥️ 系統後台管理介面實機畫面</div>
+              <img :src="logisticsImg" alt="智慧物流系統截圖" class="w-full h-auto rounded-lg object-contain border border-slate-800" />
+            </div>
           </div>
           <div class="flex flex-wrap gap-2 text-xs">
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">物流串接</span>
@@ -97,6 +111,12 @@ const advertising = ref(false)
               <li><strong class="text-white">報表呈現</strong>：整理廣告數據，提供管理與成效檢視所需的報表資訊。</li>
               <li><strong class="text-white">系統維護</strong>：維護平台資料同步與整合流程。</li>
             </ul>
+
+            <!-- 內嵌系統截圖預覽 -->
+            <div class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
+              <div class="text-xs text-purple-400 font-semibold mb-2 px-2">🖥️ 系統後台管理介面實機畫面</div>
+              <img :src="advertisingImg" alt="廣告數據系統截圖" class="w-full h-auto rounded-lg object-contain border border-slate-800" />
+            </div>
           </div>
           <div class="flex flex-wrap gap-2 text-xs">
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Meta & Google Ads SDK</span>

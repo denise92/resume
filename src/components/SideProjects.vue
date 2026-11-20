@@ -5,7 +5,7 @@
       <!-- 區塊標題 -->
       <div class="mb-12">
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
-          進修實作與個人專案 (Education & Side Projects)
+          學歷與個人專案 (Education & Side Projects)
         </h2>
       </div>
 
@@ -18,7 +18,7 @@
                 alt="國立空中大學" 
                 class="mr-1 p-2 bg-white text-emerald-400 rounded-xl w-12 h-12 object-contain"
               />
-              國立空中大學 ｜ 管資系 
+              國立空中大學 ｜ 管理與資訊學系 
               
             </h3>
             <span class="text-xs bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full border border-sky-500/20 w-fit">
@@ -26,13 +26,12 @@
             </span>
           </div>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
-            透過管資系扎實的系統分析與資料庫管理學理，並將所學直接應用於下方的個人從零孵化系統中。
+            在學中，預計 2029 年畢業
           </p>
-          <div class="flex flex-wrap gap-2 text-xs">
-            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">學理與實作並進</span>
-            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">系統分析</span>
-            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">資料庫設計與軟體工程核心</span>
-          </div>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
+            將系統分析、資料庫設計與軟體工程課程直接應用在下方的個人專案。
+          </p>
+          
         </div>
 
         <!-- 💻 個人專案列表 (Side Projects) -->
@@ -65,6 +64,7 @@
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Python / FastAPI</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Linux / Nginx</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Docker Compose</span>
+            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Nginx</span>
           </div>
         </div>
       </div>

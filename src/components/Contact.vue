@@ -1,15 +1,15 @@
 <!-- src/components/Contact.vue -->
 <script setup lang="ts">
-import { ref } from 'vue'
+// import { ref } from 'vue'
 
-const copiedEmail = ref(false)
+// const copiedEmail = ref(false)
 const email = 'rei7092@gmail.com'
 
-const copyEmail = () => {
-  navigator.clipboard.writeText(email)
-  copiedEmail.value = true
-  setTimeout(() => { copiedEmail.value = false }, 2000)
-}
+// const copyEmail = () => {
+//   navigator.clipboard.writeText(email)
+//   copiedEmail.value = true
+//   setTimeout(() => { copiedEmail.value = false }, 2000)
+// }
 </script>
 
 <template>
@@ -19,11 +19,11 @@ const copyEmail = () => {
 
     <div class="max-w-4xl mx-auto text-center relative z-10">
       <span class="text-xs font-semibold text-sky-400 bg-sky-500/10 px-4 py-1.5 rounded-full border border-sky-500/20">
-        Get in Touch
+        關於我與聯絡方式 (About & Contact)
       </span>
       
       <h2 class="text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-6">
-        尋找資深全端與系統架構夥伴？歡迎與我聯繫
+        尋找資深全端工程師或系統整合夥伴嗎？歡迎聯繫。
       </h2>
       
       <!-- 整合進來的「關於我 / 專業摘要」區塊 -->
@@ -32,8 +32,9 @@ const copyEmail = () => {
           <span class="w-2 h-2 rounded-full bg-sky-400"></span> 關於我 (About Me)
         </h3>
         <p class="text-slate-300 text-sm md:text-base leading-relaxed">
-          擁有 10 年以上軟體開發與系統維運經驗的全端工程師。從早期底層網管、大型電商平台到企業核心系統架構（購金車電子發票、智慧物流追蹤與廣告數據整合管理系統），具備扎實的後端架構設計、異質 API 整合與 DevOps 實戰能力。熱衷於透過自動化與現代化技術解決實務痛點，並持續在進修與開源專案中保持技術動能。<br><br>
-          <span class="text-sky-300 font-medium">✨ 工作之餘：</span>熱愛休閒潛水，在瞬息萬變的海底世界中培養冷靜應變與探索未知的好奇心，享受平衡且充實的質感生活。
+          我習慣從營運現場找問題：哪個流程最耗人力、哪個環節最常出錯，再用最合適的技術把它自動化。從早期的網管與 LAMP 維運，到兩度建置電商核心系統，我熟悉一套系統如何上線、如何撐過大流量，也知道如何在下一代把它做得更好。<br><br>
+          <span class="text-sky-300 font-medium">工作之餘：</span>
+            喜歡休閒潛水，水下的環境教會我保持冷靜、按部就班地處理突發狀況。
         </p>
       </div>
 
@@ -47,13 +48,13 @@ const copyEmail = () => {
           <span>📧</span> 寄送 Email
         </a>
 
-        <!-- 一鍵複製 Email 按鈕 -->
+        <!-- 一鍵複製 Email 按鈕
         <button 
           @click="copyEmail"
           class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3.5 rounded-xl transition border border-slate-700 flex items-center justify-center gap-2"
         >
           <span>📋</span> {{ copiedEmail ? '已複製 Email !' : '複製 Email 帳號' }}
-        </button>
+        </button> -->
 
         <!-- LINE 專屬快速連結 -->
         <a 
@@ -76,8 +77,8 @@ const copyEmail = () => {
 
       <!-- 額外聯絡資訊提示 -->
       <div class="text-slate-400 text-sm flex flex-col sm:flex-row justify-center items-center gap-6 pt-8 border-t border-slate-800">
-        <p>📍 駐點地區：台灣台北市 (Taipei, Taiwan) / 遠端作業</p>
-        <p>💼 可配合型態：全職資深工程師 / 專案顧問</p>
+        <p>📍 台北 / 可遠端</p>
+        <p>💼 全職資深工程師 / 專案顧問</p>
       </div>
     </div>
   </section>
