@@ -227,7 +227,6 @@ const closeModal = () => {
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">PHP</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">MySQL</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">Linux</span>
-            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">API 整合</span>
           </div>
         </div>
 
@@ -257,7 +256,7 @@ const closeModal = () => {
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">PHP</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">MySQL</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">Linux</span>
-            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">API 整合</span>
+            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">DNS / Mail Server</span>
           </div>
         </div>
       </div>

@@ -16,9 +16,9 @@ const isMenuOpen = ref(false)
       <!-- 桌面版導覽連結 -->
       <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
         <a href="#tech" class="hover:text-sky-400 transition">技術棧</a>
-        <a href="#projects" class="hover:text-sky-400 transition">核心系統</a>
-        <a href="#experience" class="hover:text-sky-400 transition">職涯經歷</a>
-        <a href="#side-projects" class="hover:text-sky-400 transition">學歷背景</a>
+        <a href="#projects" class="hover:text-sky-400 transition">主要系統</a>
+        <a href="#experience" class="hover:text-sky-400 transition">工作經歷</a>
+        <a href="#side-projects" class="hover:text-sky-400 transition">學歷與專案</a>
         <a href="#contact" class="hover:text-sky-400 transition">聯絡方式</a>
       </nav>
 
@@ -31,9 +31,9 @@ const isMenuOpen = ref(false)
     <!-- 手機版展開選單 (帶有半透明背景與毛玻璃) -->
     <div v-if="isMenuOpen" class="md:hidden bg-slate-900/95 backdrop-blur-lg border-b border-slate-800 px-6 py-4 space-y-3 text-sm shadow-xl">
       <a href="#tech" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">技術棧</a>
-      <a href="#projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">核心系統</a>
-      <a href="#experience" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">職涯經歷</a>
-      <a href="#side-projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">學歷背景</a>
+      <a href="#projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">主要系統</a>
+      <a href="#experience" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">工作經歷</a>
+      <a href="#side-projects" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">學歷與專案</a>
       <a href="#contact" @click="isMenuOpen = false" class="block text-slate-300 hover:text-sky-400 py-1">聯絡方式</a>
     </div>
   </header>

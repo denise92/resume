@@ -19,7 +19,7 @@ const email = 'rei7092@gmail.com'
 
     <div class="max-w-4xl mx-auto text-center relative z-10">
       <span class="text-xs font-semibold text-sky-400 bg-sky-500/10 px-4 py-1.5 rounded-full border border-sky-500/20">
-        關於我與聯絡方式 (About & Contact)
+        關於我與聯絡方式
       </span>
       
       <h2 class="text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-6">
@@ -29,7 +29,7 @@ const email = 'rei7092@gmail.com'
       <!-- 整合進來的「關於我 / 專業摘要」區塊 -->
       <div class="bg-slate-950/60 border border-slate-800/80 rounded-2xl p-6 md:p-8 mb-10 text-left shadow-lg backdrop-blur-sm">
         <h3 class="text-sky-400 font-semibold text-sm uppercase tracking-wider mb-2 flex items-center gap-2">
-          <span class="w-2 h-2 rounded-full bg-sky-400"></span> 關於我 (About Me)
+          <span class="w-2 h-2 rounded-full bg-sky-400"></span> 關於我
         </h3>
         <p class="text-slate-300 text-sm md:text-base leading-relaxed">
           我習慣從營運現場找問題：哪個流程最耗人力、哪個環節最常出錯，再用最合適的技術把它自動化。從早期的網管與 LAMP 維運，到兩度建置電商核心系統，我熟悉一套系統如何上線、如何撐過大流量，也知道如何在下一代把它做得更好。<br><br>
