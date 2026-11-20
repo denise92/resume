@@ -62,7 +62,7 @@
             <li><strong class="text-white">畢業進度</strong>：記錄已修課程，依入學年度的畢業規則算出還差多少學分。</li>
             <li><strong class="text-white">學分學程進度</strong>：對照各學系學程，列出還差哪些科目。</li>
             <li><strong class="text-white">空大行事曆</strong>：整理官方選課、開播與考試日期。</li>
-            <li><strong class="text-white">個人行事曆訂閱</strong>：依學員輸入的課程，自動同步面授時間與期中、期末考時間到手機行事曆，上課前一小時跳出提醒。</li>
+            <li><strong class="text-white">個人行事曆訂閱</strong>：依學員輸入的課程與班級，產生個人 iCal 訂閱網址，定期自動同步面授與期中、期末考時間；上課前 1 小時、考試前 1 天及 1 小時提醒。</li>
             <li><strong class="text-white">二手書交流</strong>：學員之間買賣、交換教科書，有配對通知。</li>
             <li><strong class="text-white">課表分享</strong>：一鍵產生修課清單連結，同學可直接匯入。</li>
           </ul>
