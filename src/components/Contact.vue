@@ -23,7 +23,7 @@ const copyEmail = () => {
       </span>
       
       <h2 class="text-3xl md:text-4xl font-bold tracking-tight mt-4 mb-6">
-        尋找資深全端與系統架構夥伴？歡迎與我聯繫
+        歡迎來信聊聊
       </h2>
       
       <!-- 整合進來的「關於我 / 專業摘要」區塊 -->
@@ -32,8 +32,8 @@ const copyEmail = () => {
           <span class="w-2 h-2 rounded-full bg-sky-400"></span> 關於我 (About Me)
         </h3>
         <p class="text-slate-300 text-sm md:text-base leading-relaxed">
-          擁有 10 年以上軟體開發與系統維運經驗的全端工程師。從早期底層網管、大型電商平台到企業核心系統架構（購金車電子發票、智慧物流追蹤與廣告數據整合管理系統），具備扎實的後端架構設計、異質 API 整合與 DevOps 實戰能力。熱衷於透過自動化與現代化技術解決實務痛點，並持續在進修與開源專案中保持技術動能。<br><br>
-          <span class="text-sky-300 font-medium">✨ 工作之餘：</span>熱愛休閒潛水，在瞬息萬變的海底世界中培養冷靜應變與探索未知的好奇心，享受平衡且充實的質感生活。
+          我習慣從營運現場找問題：哪個流程最耗人力、哪個環節最常出錯，再用最合適的技術把它自動化。從早期的網管與 LAMP 維運，到兩度建置電商核心系統，我熟悉一套系統如何上線、如何撐過大流量，也知道如何在下一代把它做得更好。<br><br>
+          <span class="text-sky-300 font-medium">工作之餘：</span>喜歡休閒潛水，水下的環境教會我保持冷靜、按部就班地處理突發狀況。
         </p>
       </div>
 

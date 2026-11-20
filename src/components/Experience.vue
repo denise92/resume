@@ -34,9 +34,8 @@ const closeModal = () => {
     <div class="max-w-4xl mx-auto">
       <div class="mb-12">
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
-          職涯經歷沿革 (Experience Track Record)
+          工作經歷
         </h2>
-        <p class="text-slate-400 text-sm">橫跨大型企業核心系統、知名電商與遊戲產業的架構演進史</p>
       </div>
       
       <div class="space-y-12 border-l-2 border-slate-800 pl-6 ml-2">
@@ -47,20 +46,18 @@ const closeModal = () => {
           <h3 class="text-xl font-bold text-white">資深全端工程師 ｜ 購金車有限公司</h3>
           
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            以 Python（FastAPI）+ PostgreSQL + Docker 重新設計電子發票、智慧物流與廣告數據系統。相較前一代 PHP 版本，改善了背景排程與異常重試機制、對帳自動化、多物流商擴充性。
+            以 Python（FastAPI）+ PostgreSQL + Docker 重寫電子發票、物流與廣告數據系統。延續我在 a.m.z 以 PHP 建置第一代的經驗，這次改善了背景排程與失敗重試、對帳自動化，以及新增物流商的擴充性。
           </p>
           <ul class="list-disc list-inside text-slate-300 text-sm mb-4 space-y-1.5 leading-relaxed">
-            <li><strong class="text-white">需求分析</strong>：與實際業務需求對應，釐清系統功能及作業流程。</li>
-            <li><strong class="text-white">系統設計</strong>：規劃系統架構、資料處理流程及外部服務整合方式。</li>
-            <li><strong class="text-white">程式開發</strong>：負責核心功能實作、API 串接與自動化流程建置。</li>
-            <li><strong class="text-white">系統整合</strong>：整合內部業務系統與第三方服務。</li>
-            <li><strong class="text-white">上線導入</strong>：將開發完成的系統導入實際企業營運。</li>
-            <li><strong class="text-white">維護優化</strong>：負責系統後續維護、異常處理與功能調整。</li>
+            <li><strong class="text-white">電子發票</strong>：背景排程自動開立，失敗時自動重試並通知，月底對帳自動產出報表。</li>
+            <li><strong class="text-white">物流</strong>：串接多家物流商，同步出貨並追蹤配送狀態，新增物流商不必改動核心流程。</li>
+            <li><strong class="text-white">廣告</strong>：串接 Meta / Google Ads API，每日自動拉回成效數據，產出營運報表。</li>
+            <li><strong class="text-white">全程負責</strong>：從需求訪談、設計、開發到上線與維運。</li>
           </ul>
           
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '購金車有限公司：aiB官方網站', period: '2016/03 - 至今', description: '以 Python（FastAPI）+ PostgreSQL + Docker 重新設計電子發票、智慧物流與廣告數據系統。相較前一代 PHP 版本，改善了背景排程與異常重試機制、對帳自動化、多物流商擴充性。', image: imgAib })"
+            @click="openModal({ title: '購金車有限公司：aiB官方網站', period: '2016/03 - 至今', description: '以 Python（FastAPI）+ PostgreSQL + Docker 重寫電子發票、物流與廣告數據系統。延續我在 a.m.z 以 PHP 建置第一代的經驗，這次改善了背景排程與失敗重試、對帳自動化，以及新增物流商的擴充性。', image: imgAib })"
           >
             <img :src="imgAib" alt="aiB官方網站" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -85,12 +82,12 @@ const closeModal = () => {
           <h3 class="text-xl font-bold text-white">資深程式設計師 ｜ 遊戲橘子股份有限公司</h3>
           
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            負責手機遊戲 source code 整合與後端系統維運。期間參與多款知名熱門手遊（如《召喚圖板》、《五四三國誌》、《龍族撲克》）的後端架構維護、版本迭代與第三方 API 串接，運用 Zend Framework、Laravel 與 Lumen 確保高併發環境下的系統穩定與流暢運行。
+            負責手機遊戲後端維運與版本更新，包含《召喚圖板》《五四三國誌》《龍族撲克》等，處理第三方 API 串接。使用 PHP（Zend Framework、Laravel、Lumen）。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '遊戲橘子股份有限公司：遊戲橘子', period: '2015/09 - 2016/03', description: '負責手機遊戲 source code 整合與後端系統維運。期間參與多款知名熱門手遊（如《召喚圖板》、《五四三國誌》、《龍族撲克》）的後端架構維護、版本迭代與第三方 API 串接，運用 Zend Framework、Laravel 與 Lumen 確保高併發環境下的系統穩定與流暢運行。', image: imgBeanfun })"
+            @click="openModal({ title: '遊戲橘子股份有限公司：遊戲橘子', period: '2015/09 - 2016/03', description: '負責手機遊戲後端維運與版本更新，包含《召喚圖板》《五四三國誌》《龍族撲克》等，處理第三方 API 串接。使用 PHP（Zend Framework、Laravel、Lumen）。', image: imgBeanfun })"
           >
             <img :src="imgBeanfun" alt="遊戲橘子" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -112,7 +109,7 @@ const closeModal = () => {
         <!-- 購明系雲科技 -->
         <div class="relative">
           <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-950"></span>
-          <div class="text-xs font-semibold text-slate-400 mb-1">2014/08 ～ 2015/8 (1年1個月)</div>
+          <div class="text-xs font-semibold text-slate-400 mb-1">2014/08 ～ 2015/08 (1年1個月)</div>
           <h3 class="text-xl font-bold text-white">資深程式設計師 ｜ 購明系雲科技有限公司</h3>
           
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
@@ -148,17 +145,17 @@ const closeModal = () => {
           </h3>
 
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            參與遊戲與數位內容商城平台（1758play）之營運與開發。負責核心網路程式設計、網站前端視覺與互動架構建置，並執行嚴格的網路安全維護與主機高可用性管理。運用 PHP、MySQL、Smarty 樣板引擎與 MVC 架構，確保遊戲商城在多款熱門線上遊戲發行與點數交易期間的系統穩定性與流暢的會員體驗。
+            負責遊戲點數商城 1758play 的 PHP 開發（MVC、Smarty）與前端頁面，並維護 Linux 主機。
           </p>
 
           <!-- 內嵌實績預覽卡片 -->
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '東方鴻展遊戲有限公司：1758play', period: '2012/12 - 2013/07', description: '參與遊戲與數位內容商城平台（1758play）之營運與開發。負責核心網路程式設計、網站前端視覺與互動架構建置，並執行嚴格的網路安全維護與主機高可用性管理。運用 PHP、MySQL、Smarty 樣板引擎與 MVC 架構，確保遊戲商城在多款熱門線上遊戲發行與點數交易期間的系統穩定性與流暢的會員體驗。', image: img1758 })"
+            @click="openModal({ title: '東方鴻展遊戲有限公司：1758play', period: '2012/12 - 2013/07', description: '負責遊戲點數商城 1758play 的 PHP 開發（MVC、Smarty）與前端頁面，並維護 Linux 主機。', image: img1758 })"
           >
             <img :src="img1758" alt="1758play" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
-              <span class="text-xs text-sky-400 font-semibold">(closed;1) http://1758.1758play.com/</span>
+              <span class="text-xs text-sky-400 font-semibold">(closed) http://1758.1758play.com/</span>
               <h4 class="text-sm font-bold text-white mt-0.5">1758play 數位內容商城</h4>
             </div>
           </div>
@@ -182,12 +179,12 @@ const closeModal = () => {
             PHP程式設計師 ｜ 網勁科技股份有限公司（ECnet）
           </h3>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-4">
-            參與跨國網購商城與社群電商平台（荷包網）之系統開發與維運。面對龐大商品目錄與複雜的使用者互動需求，負責深度的資料庫查詢優化、核心網路程式設計與日常系統安全防護，確保高流量與跨國資料交換下的平台穩定度與交易安全。
+            負責跨國購物商城「荷包網」的 PHP 開發與維運，處理 PostgreSQL 查詢效能調整與 Discuz 社群模組。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '網勁科技股份有限公司（ECnet）：荷包網 (JoinBao) 商城', period: '2011/10 - 2012/11', description: '參與跨國網購商城與社群電商平台（荷包網）之系統開發與維運。面對龐大商品目錄與複雜的使用者互動需求，負責深度的資料庫查詢優化、核心網路程式設計與日常系統安全防護，確保高流量與跨國資料交換下的平台穩定度與交易安全。', image: imgJoinBao })"
+            @click="openModal({ title: '網勁科技股份有限公司（ECnet）：荷包網 (JoinBao) 商城', period: '2011/10 - 2012/11', description: '負責跨國購物商城「荷包網」的 PHP 開發與維運，處理 PostgreSQL 查詢效能調整與 Discuz 社群模組。', image: imgJoinBao })"
           >
             <img :src="imgJoinBao" alt="荷包網 (JoinBao) 商城" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -209,15 +206,15 @@ const closeModal = () => {
           <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2011/01 ～ 2011/10 (10個月)</div>
           <h3 class="text-xl font-bold text-white mb-2">
-            PHP程式設計師 ｜ 網勁科技股份有限公司
+            PHP程式設計師 ｜ 地壹創媒
           </h3>
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-4">
-            參與具代表性之「每日一物」團購與奇特選品電商平台。負責核心系統架構維運與前端效能優化，應對每日特賣開檔時瞬間湧入的龐大流量挑戰，並執行日常網站安全維護與資料庫查詢優化，確保高併發情境下的交易流暢與資安防護。
+            負責「每日一物」團購網站的 PHP 開發與主機維運。每日特賣開檔時流量集中，負責資料庫查詢與前端效能調整，讓網站撐住尖峰。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '網勁科技股份有限公司：瘋狂賣客 (CrazyMike)', period: '2011/01 - 2011/10', description: '參與具代表性之「每日一物」團購與奇特選品電商平台。負責核心系統架構維運與前端效能優化，應對每日特賣開檔時瞬間湧入的龐大流量挑戰，並執行日常網站安全維護與資料庫查詢優化，確保高併發情境下的交易流暢與資安防護。', image: imgCrazyMike })"
+            @click="openModal({ title: '地壹創媒：瘋狂賣客 (CrazyMike)', period: '2011/01 - 2011/10', description: '負責「每日一物」團購網站的 PHP 開發與主機維運。每日特賣開檔時流量集中，負責資料庫查詢與前端效能調整，讓網站撐住尖峰。', image: imgCrazyMike })"
           >
             <img :src="imgCrazyMike" alt="瘋狂賣客" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -242,12 +239,12 @@ const closeModal = () => {
             網路工程師與 MIS 主管 ｜ 永漢國際書局 & 藝游館文化事業
           </h3>
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            負責台灣日語教育與日文書籍引進先驅——永漢國際書局旗下知名指標平台「Qbooks 日文雜誌 MOOK 網路書店」之系統開發與全方位資訊架構維運。一手包辦 LAMP 伺服器環境架構設計、DNS 與郵件伺服器（Mail Server）建置管理、網路與資訊安全維護、資料庫管理以及商城網站程式設計，為後續多年橫跨大型企業、電商與遊戲產業的全端開發與系統維運實力，打下最深厚且扎實的技術底子。
+            負責「Qbooks 日文雜誌 MOOK 網路書店」的程式開發，以及公司內部 IT：架設 LAMP 環境、DNS 與郵件伺服器，並負責網路安全與資料庫管理。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '永漢國際書局：Qbooks 日文雜誌 MOOK 網路書店', period: '2008/11 - 2010/12', description: '長期負責台灣日語教育與日文書籍引進先驅——永漢國際書局旗下知名指標平台「Qbooks 日文雜誌 MOOK 網路書店」之系統開發與全方位資訊架構維運。一手包辦 LAMP 伺服器環境架構設計、DNS 與郵件伺服器（Mail Server）建置管理、網路與資訊安全維護、資料庫管理以及商城網站程式設計，為後續多年橫跨大型企業、電商與遊戲產業的全端開發與系統維運實力，打下最深厚且扎實的技術底子。', image: imgJmag })"
+            @click="openModal({ title: '永漢國際書局：Qbooks 日文雜誌 MOOK 網路書店', period: '2008/11 - 2010/12', description: '負責「Qbooks 日文雜誌 MOOK 網路書店」的程式開發，以及公司內部 IT：架設 LAMP 環境、DNS 與郵件伺服器，並負責網路安全與資料庫管理。', image: imgJmag })"
           >
             <img :src="imgJmag" alt="永漢國際書局" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>

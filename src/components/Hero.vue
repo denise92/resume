@@ -43,10 +43,10 @@ const isModalOpen = ref(false)
         徐瑄伶 <span class="text-slate-400 font-normal text-2xl md:text-3xl">(Denise / 阿累)</span>
       </h1>
       <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto">
-        具備多年軟體開發與企業系統建置經驗，擅長將實際營運需求轉化為可執行的軟體解決方案，涵蓋系統分析、全端開發、API 整合、自動化流程與系統維運。
+        15 年以上軟體開發與系統維運經驗，專精電商營運自動化：電子發票、物流串接與廣告數據整合。我曾在兩家公司從零建置這類核心系統，第一代用 PHP，第二代以 Python (FastAPI) 重新設計，熟悉系統從 0 到 1、再從 1 到 2 的完整演進。
       </p>
       <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto">
-        持續進修資訊管理與現代軟體工程技術，致力於打造具備擴充性、可維護性與實際商業價值的資訊系統。
+        擅長把營運痛點轉成可維運的系統，涵蓋需求分析、架構設計、API 整合、背景排程與 Linux / Docker 維運，並已將 Claude、Cursor 等 AI 輔助開發工具導入日常開發流程。
       </p>
     </div>
   </section>
