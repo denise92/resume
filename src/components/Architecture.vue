@@ -13,9 +13,9 @@ const advertising = ref(false)
     <div class="max-w-5xl mx-auto">
       <div class="mb-12">
         <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-sky-500 pl-4 mb-2">
-          企業核心系統架構 (Enterprise Systems)
+          主要負責的系統
         </h2>
-        <p class="text-slate-400 text-sm">從 PHP 第一代到 Python 第二代，兩度從零建置電商自動化核心系統</p>
+        <p class="text-slate-400 text-sm">第一代以 PHP 建置，第二代以 Python 重寫</p>
       </div>
       
       <div class="space-y-8">
