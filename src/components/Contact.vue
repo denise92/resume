@@ -5,6 +5,9 @@
 // const copiedEmail = ref(false)
 const email = 'rei7092@gmail.com'
 
+// 開啟瀏覽器列印對話框，可直接選「另存為 PDF」
+const printResume = () => window.print()
+
 // const copyEmail = () => {
 //   navigator.clipboard.writeText(email)
 //   copiedEmail.value = true
@@ -38,7 +41,7 @@ const email = 'rei7092@gmail.com'
       </div>
 
       <!-- 主要互動按鈕群 -->
-      <div class="flex flex-col md:flex-row md:flex-wrap justify-center gap-4 mb-12">
+      <div data-print="hide" class="flex flex-col md:flex-row md:flex-wrap justify-center gap-4 mb-12">
         <!-- 發送 Email 按鈕 -->
         <a 
           :href="`mailto:${email}`" 
@@ -72,6 +75,21 @@ const email = 'rei7092@gmail.com'
         >
           <span>⚡</span> GitHub 倉庫
         </a>
+
+        <!-- 列印 / 存成 PDF -->
+        <button
+          type="button"
+          @click="printResume"
+          class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3.5 rounded-xl transition border border-slate-700 flex items-center justify-center gap-2"
+        >
+          <span>🖨️</span> 列印 / 存成 PDF
+        </button>
+      </div>
+
+      <!-- 僅列印時顯示的聯絡資訊（畫面上的按鈕在列印時會隱藏） -->
+      <div data-print="only" class="hidden text-sm mb-4">
+        <p>Email：{{ email }}　｜　LINE：denise92　｜　GitHub：github.com/denise92</p>
+        <p>線上版履歷：denise92.github.io/resume</p>
       </div>
 
       <!-- 額外聯絡資訊提示 -->

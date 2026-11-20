@@ -66,7 +66,7 @@ onUnmounted(() => {
     <Contact id="contact" />
     
     <!-- 頁尾 -->
-    <footer class="bg-slate-950 py-8 text-center text-slate-500 text-xs border-t border-slate-900">
+    <footer data-print="hide" class="bg-slate-950 py-8 text-center text-slate-500 text-xs border-t border-slate-900">
       <p>© {{ currentYear }} 徐瑄伶 (Denise) - Senior Full-Stack Portfolio. Built with Vue 3 & Tailwind CSS.</p>
     </footer>
 
@@ -81,6 +81,7 @@ onUnmounted(() => {
     >
       <button
         v-if="showBackToTop"
+        data-print="hide"
         @click="scrollToTop"
         class="fixed bottom-6 right-6 z-50 bg-sky-600 hover:bg-sky-500 text-white p-3.5 rounded-2xl shadow-lg shadow-sky-900/40 border border-sky-400/30 flex items-center justify-center transition group"
         title="返回頁首"

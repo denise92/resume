@@ -1,2 +1,46 @@
 @import "tailwindcss";
 html { scroll-behavior: smooth; }
+
+/* 列印 / 存成 PDF 樣式：白底黑字、隱藏互動元件、展開系統說明 */
+@media print {
+  @page { size: A4; margin: 12mm 14mm; }
+
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    color: #111 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    backdrop-filter: none !important;
+    border-color: #d4d4d8 !important;
+  }
+
+  /* data-print 標記：hide 隱藏、only 僅列印顯示、expand 強制展開 */
+  [data-print="hide"] { display: none !important; }
+  [data-print="only"],
+  [data-print="expand"] { display: block !important; }
+
+  section {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 0 !important;
+    border: none !important;
+  }
+
+  /* 縮小字級與留白，讓 PDF 頁數精簡 */
+  html { font-size: 12px; }
+  .p-8, .p-6 { padding: 10px 14px !important; }
+  .space-y-8 > * + *, .space-y-12 > * + * { margin-top: 14px !important; }
+  .mb-12, .mb-10 { margin-bottom: 12px !important; }
+  #tech .grid { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 10px !important; }
+
+  #experience .rounded-xl { padding: 6px 10px !important; }
+  #contact .max-w-4xl { break-inside: avoid; }
+
+  h2, h3 { break-after: avoid; }
+  li, p, #experience .relative { break-inside: avoid; }
+}

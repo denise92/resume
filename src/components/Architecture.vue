@@ -31,7 +31,7 @@ const advertising = ref(false)
             </h3>
           </div>
 
-          <div class="text-slate-300 text-sm leading-relaxed mb-6" :class="invoice ? 'block' : 'hidden'">
+          <div data-print="expand" class="text-slate-300 text-sm leading-relaxed mb-6" :class="invoice ? 'block' : 'hidden'">
             <p>簡化繁雜的發票處理流程，將開立、作廢、折讓、註銷等操作自動化，串接網站訂單與財政部發票eTrunkey，降低人工操作及跨系統資料處理的複雜度。</p>
 
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
@@ -43,7 +43,7 @@ const advertising = ref(false)
             </ul>
 
             <!-- 內嵌系統截圖預覽 -->
-            <div class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
+            <div data-print="hide" class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
               <div class="text-xs text-sky-400 font-semibold mb-2 px-2">🖥️ 系統後台管理介面實機畫面</div>
               <img :src="invoiceImg" alt="電子發票系統截圖" class="w-full h-auto rounded-lg object-contain border border-slate-800" />
             </div>
@@ -67,7 +67,7 @@ const advertising = ref(false)
             </h3>
           </div>
           
-          <div class="text-slate-300 text-sm leading-relaxed mb-6" :class="logistics ? 'block' : 'hidden'">
+          <div data-print="expand" class="text-slate-300 text-sm leading-relaxed mb-6" :class="logistics ? 'block' : 'hidden'">
             <p>為整合企業出貨作業與物流配送資訊，開發物流資料串接及貨態追蹤系統，透過物流服務 API 同步出貨資料與配送狀態，建立從出貨到配送進度查詢的資訊整合流程。</p>
 
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
@@ -79,7 +79,7 @@ const advertising = ref(false)
             </ul>
 
             <!-- 內嵌系統截圖預覽 -->
-            <div class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
+            <div data-print="hide" class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
               <div class="text-xs text-emerald-400 font-semibold mb-2 px-2">🖥️ 系統後台管理介面實機畫面</div>
               <img :src="logisticsImg" alt="智慧物流系統截圖" class="w-full h-auto rounded-lg object-contain border border-slate-800" />
             </div>
@@ -101,7 +101,7 @@ const advertising = ref(false)
             </h3>
           </div>
           
-          <div class="text-slate-300 text-sm leading-relaxed mb-6" :class="advertising ? 'block' : 'hidden'">
+          <div data-print="expand" class="text-slate-300 text-sm leading-relaxed mb-6" :class="advertising ? 'block' : 'hidden'">
             <p>針對企業廣告投放管理與成效資料整合需求，開發廣告平台資料串接及管理系統，整合不同廣告平台的數據資訊，提供集中化的廣告管理與報表資料。</p>
             
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
@@ -113,7 +113,7 @@ const advertising = ref(false)
             </ul>
 
             <!-- 內嵌系統截圖預覽 -->
-            <div class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
+            <div data-print="hide" class="mt-6 border border-slate-700/80 rounded-xl overflow-hidden bg-slate-950 p-2">
               <div class="text-xs text-purple-400 font-semibold mb-2 px-2">🖥️ 系統後台管理介面實機畫面</div>
               <img :src="advertisingImg" alt="廣告數據系統截圖" class="w-full h-auto rounded-lg object-contain border border-slate-800" />
             </div>
@@ -121,7 +121,6 @@ const advertising = ref(false)
           <div class="flex flex-wrap gap-2 text-xs">
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Meta / Google Ads API</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">營運分析報表</span>
-            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">後台 UX 流程優化</span>
           </div>
         </div>
       </div>
