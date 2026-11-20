@@ -1,6 +1,11 @@
 <!-- src/components/Experience.vue -->
 <script setup lang="ts">
 import { ref } from 'vue'
+import dayjs from 'dayjs'
+
+// 現職年資：從 2016/03 起算到今天，自動計算，避免寫死後過期
+const currentJobMonths = dayjs().diff(dayjs('2016-03-01'), 'month')
+const currentJobDuration = `${Math.floor(currentJobMonths / 12)}年${currentJobMonths % 12}個月`
 
 // 引入歷史經手網站圖片
 import img1758 from '@/assets/images/1758play.webp'
@@ -44,7 +49,7 @@ const closeModal = () => {
         <!-- 現職：購金車有限公司 -->
         <div class="relative">
           <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-950"></span>
-          <div class="text-xs font-semibold text-sky-400 mb-1">2016/03 ～ 至今 (10年8個月)</div>
+          <div class="text-xs font-semibold text-sky-400 mb-1">2016/03 ～ 至今 ({{ currentJobDuration }})</div>
           <h3 class="text-xl font-bold text-white">資深全端工程師 ｜ 購金車有限公司</h3>
           
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
@@ -73,7 +78,7 @@ const closeModal = () => {
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-sky-500/20">Python (FastAPI)</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-emerald-500/20">PostgreSQL</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">Linux / Docker</span>
-            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">異質 API 整合</span>
+            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">第三方 API 整合</span>
           </div>
         </div>
 

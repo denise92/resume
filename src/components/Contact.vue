@@ -86,12 +86,6 @@ const printResume = () => window.print()
         </button>
       </div>
 
-      <!-- 僅列印時顯示的聯絡資訊（畫面上的按鈕在列印時會隱藏） -->
-      <div data-print="only" class="hidden text-sm mb-4">
-        <p>Email：{{ email }}　｜　LINE：denise92　｜　GitHub：github.com/denise92</p>
-        <p>線上版履歷：denise92.github.io/resume</p>
-      </div>
-
       <!-- 額外聯絡資訊提示 -->
       <div class="text-slate-400 text-sm flex flex-col sm:flex-row justify-center items-center gap-6 pt-8 border-t border-slate-800">
         <p>📍 台北 / 可遠端</p>

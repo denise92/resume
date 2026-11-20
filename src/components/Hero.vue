@@ -42,6 +42,10 @@ const isModalOpen = ref(false)
       <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">
         徐瑄伶 <span class="text-slate-400 font-normal text-2xl md:text-3xl">(Denise)</span>
       </h1>
+      <!-- 僅列印時顯示：讓 PDF 第一頁就看得到聯絡方式 -->
+      <div data-print="only" class="hidden text-sm mb-4">
+        Email：rei7092@gmail.com　｜　LINE：denise92　｜　GitHub：github.com/denise92　｜　線上版：denise92.github.io/resume
+      </div>
       <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto">
         15 年以上軟體開發與系統維運經驗，專精電商營運自動化：電子發票、物流串接與廣告數據整合。我曾在兩家公司從零建置這類核心系統，第一代用 PHP，第二代以 Python (FastAPI) 重新設計，熟悉系統從 0 到 1、再從 1 到 2 的完整演進。
       </p>
