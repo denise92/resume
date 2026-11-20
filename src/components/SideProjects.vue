@@ -66,11 +66,12 @@
             <li><strong class="text-white">二手書交流</strong>：學員之間買賣、交換教科書，有配對通知。</li>
             <li><strong class="text-white">課表分享</strong>：一鍵產生修課清單連結，同學可直接匯入。</li>
           </ul>
-          <p class="text-slate-400 text-sm mb-6">支援 LINE / email 登入，可加到手機主畫面當 App 使用。</p>
+          <p class="text-slate-400 text-sm mb-6">支援 LINE / email 登入。網站採用 PWA（Progressive Web App）技術，可以加到手機主畫面，像 App 一樣開啟使用（非原生 iOS / Android App）。</p>
           <div class="flex flex-wrap gap-2 text-xs">
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Vue 3</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">TypeScript</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Tailwind CSS</span>
+            <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">PWA</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Python / FastAPI</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Linux / Nginx</span>
             <span class="bg-slate-900 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-700">Docker Compose</span>
