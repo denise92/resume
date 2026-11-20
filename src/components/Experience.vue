@@ -10,6 +10,8 @@ import imgJmag from '@/assets/images/jmag.webp'
 import imgAmz from '@/assets/images/amz.webp'
 import imgBeanfun from '@/assets/images/beanfun.webp'
 import imgAib from '@/assets/images/aib.webp'
+import imgWinner from '@/assets/images/winnertek.webp'
+import imgAsuka from '@/assets/images/asuka.webp'
 
 // 定義燈箱 Modal 狀態
 interface HistoryProject {
@@ -133,6 +135,45 @@ const closeModal = () => {
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">MySQL</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">Linux</span>
             <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">API 整合</span>
+          </div>
+        </div>
+
+        <!-- 自由接案 (SOHO) -->
+        <div class="relative">
+          <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></span>
+          <div class="text-xs font-semibold text-slate-400 mb-1">2013/08 ～ 2014/07 (1年)</div>
+          <h3 class="text-xl font-bold text-white">自由接案 ｜ SOHO</h3>
+
+          <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
+            在家接案，為客戶建置中小型網站。
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div
+              class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
+              @click="openModal({ title: '自由接案：旺安科技 (Winner Technology)', period: '2013/08 - 2014/07', description: '旺安科技企業形象網站。', image: imgWinner })"
+            >
+              <img data-print="hide" :src="imgWinner" alt="旺安科技" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+              <div>
+                <h4 class="text-sm font-bold text-white">旺安科技企業網站</h4>
+              </div>
+            </div>
+            <div
+              class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
+              @click="openModal({ title: '自由接案：飛鳥井の部屋 (Akira\'s ACG room)', period: '2013/08 - 2014/07', description: '以 osCommerce 客製開發的動漫主題網站。', image: imgAsuka })"
+            >
+              <img data-print="hide" :src="imgAsuka" alt="飛鳥井の部屋" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
+              <div>
+                <h4 class="text-sm font-bold text-white">飛鳥井の部屋（ACG 主題網站）</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- 技術棧標籤 -->
+          <div class="flex flex-wrap gap-2 mt-4 text-xs">
+            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">PHP</span>
+            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">MySQL</span>
+            <span class="bg-slate-900 text-slate-300 px-3 py-1 rounded-lg border border-slate-700">osCommerce</span>
           </div>
         </div>
 

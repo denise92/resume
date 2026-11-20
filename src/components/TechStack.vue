@@ -16,11 +16,8 @@
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Python</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">FastAPI</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">PHP</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">OpenCart</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Laravel</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Lumen</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Zend Framework</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">WordPress</span>
           </div>
         </div>
 
@@ -35,7 +32,6 @@
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Ant Design</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">HTML5</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Bootstrap</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">jQuery</span>
 
           </div>
         </div>
@@ -59,7 +55,6 @@
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Docker / Compose</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Nginx</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Ubuntu</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">CentOS</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Google Cloud Platform (GCP)</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Linode VPS</span>
           </div>
@@ -84,7 +79,6 @@
           
           <div class="flex flex-wrap gap-2">
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Git (GitHub / Bitbucket)</span>
-            <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">SVN</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Cursor</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Codex</span>
             <span class="bg-slate-900 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-800">Claude</span>

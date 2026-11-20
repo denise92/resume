@@ -31,7 +31,14 @@
           <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
             將系統分析、資料庫設計與軟體工程課程直接應用在下方的個人專案。
           </p>
-          
+
+        </div>
+
+        <!-- 語言能力 -->
+        <div class="bg-slate-800/80 px-8 py-5 rounded-2xl border border-slate-700/80">
+          <p class="text-slate-300 text-sm md:text-base">
+            <strong class="text-white">語言能力</strong>　日文：略懂（JLPT N4）
+          </p>
         </div>
 
         <!-- 💻 個人專案列表 (Side Projects) -->
