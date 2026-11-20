@@ -71,7 +71,7 @@ const advertising = ref(false)
             <p>為整合企業出貨作業與物流配送資訊，開發物流資料串接及貨態追蹤系統，透過物流服務 API 同步出貨資料與配送狀態，建立從出貨到配送進度查詢的資訊整合流程。</p>
 
             <ul class="list-disc list-inside text-sm mt-5 space-y-1.5 leading-relaxed">
-              <li><strong class="text-white">物流 API 整合</strong>：串接 4 家超商取貨與 5 家宅配物流服務，取得及交換配送資訊。</li>
+              <li><strong class="text-white">物流 API 整合</strong>：串接 4 家超商取貨與 6 家宅配物流服務，取得及交換配送資訊。</li>
               <li><strong class="text-white">出貨資料同步</strong>：整合內部訂單與物流出貨資料。</li>
               <li><strong class="text-white">貨態追蹤</strong>：接收並更新物流配送狀態。</li>
               <li><strong class="text-white">資料整合</strong>：建立內部業務資料與外部物流資訊的對應關係。</li>
