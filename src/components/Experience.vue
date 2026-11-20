@@ -50,7 +50,7 @@ const closeModal = () => {
           </p>
           <ul class="list-disc list-inside text-slate-300 text-sm mb-4 space-y-1.5 leading-relaxed">
             <li><strong class="text-white">電子發票</strong>：平均每天自動開立 100 張以上，失敗時自動重試並通知，月底對帳自動產出報表。</li>
-            <li><strong class="text-white">物流</strong>：串接 9 家物流商，包含 7-11、全家、萊爾富、OK 四大超商，以及黑貓、新竹、大榮、嘉里等 5 家宅配；同步出貨並追蹤配送狀態，新增物流商不必改動核心流程。</li>
+            <li><strong class="text-white">物流</strong>：串接 10 家物流商，包含 7-11、全家、萊爾富、OK 四大超商，以及黑貓、新竹、大榮、嘉里、順豐、中華郵政 6 家宅配；同步出貨並追蹤配送狀態，新增物流商不必改動核心流程。</li>
             <li><strong class="text-white">廣告</strong>：串接 Meta / Google Ads API，每日自動拉回成效數據，產出營運報表。</li>
             <li><strong class="text-white">全程負責</strong>：從需求訪談、設計、開發到上線與維運。</li>
           </ul>
