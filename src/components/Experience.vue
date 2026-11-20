@@ -113,12 +113,12 @@ const closeModal = () => {
           <h3 class="text-xl font-bold text-white">資深程式設計師 ｜ 購明系雲科技有限公司</h3>
           
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
-            參與 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。
+            負責 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 負責建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。
           </p>
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '購明系雲科技有限公司：a.m.z 亞瑪勁線上購物', period: '2014/08 - 2015/08', description: '參與 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。', image: imgAmz })"
+            @click="openModal({ title: '購明系雲科技有限公司：a.m.z 亞瑪勁線上購物', period: '2014/08 - 2015/08', description: '負責 a.m.z 亞瑪勁線上購物的全端開發與主機維運。以 PHP + MySQL 負責建置第一代電子發票自動開立、物流出貨與貨態追蹤、廣告數據整合系統，串接電商營運所需的金流、物流與發票流程，並支援雙 11 等大型檔期。', image: imgAmz })"
           >
             <img :src="imgAmz" alt="a.m.z 亞瑪勁線上購物" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
@@ -235,7 +235,7 @@ const closeModal = () => {
           <span class="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full bg-slate-800 border-4 border-slate-950"></span>
           <div class="text-xs font-semibold text-slate-400 mb-1">2005/03 ～ 2010/12 (5年10個月)</div>
           <h3 class="text-xl font-bold text-white">
-            網路工程師與 MIS 主管 ｜ 永漢國際書局 & 藝游館文化事業
+            網路工程師 / MIS ｜ 永漢國際書局 & 藝游館文化事業
           </h3>
           <p class="text-slate-300 text-sm mt-2 leading-relaxed mb-4">
             負責「Qbooks 日文雜誌 MOOK 網路書店」的程式開發，以及公司內部 IT：架設 LAMP 環境、DNS 與郵件伺服器，並負責網路安全與資料庫管理。
@@ -243,7 +243,7 @@ const closeModal = () => {
 
           <div 
             class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 hover:border-sky-500/50 transition cursor-pointer group flex items-center gap-4"
-            @click="openModal({ title: '永漢國際書局：Qbooks 日文雜誌 MOOK 網路書店', period: '2008/11 - 2010/12', description: '負責「Qbooks 日文雜誌 MOOK 網路書店」的程式開發，以及公司內部 IT：架設 LAMP 環境、DNS 與郵件伺服器，並負責網路安全與資料庫管理。', image: imgJmag })"
+            @click="openModal({ title: '永漢國際書局：Qbooks 日文雜誌 MOOK 網路書店', period: '2005/03 - 2010/12', description: '負責「Qbooks 日文雜誌 MOOK 網路書店」的程式開發，以及公司內部 IT：架設 LAMP 環境、DNS 與郵件伺服器，並負責網路安全與資料庫管理。', image: imgJmag })"
           >
             <img :src="imgJmag" alt="永漢國際書局" class="w-24 h-16 object-cover rounded-lg border border-slate-800 group-hover:scale-105 transition" />
             <div>
