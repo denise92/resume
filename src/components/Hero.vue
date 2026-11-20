@@ -9,7 +9,7 @@ const isModalOpen = ref(false)
   <section class="bg-slate-900 text-white pt-32 px-6 mb-5 relative">
     <div class="absolute inset-x-0 top-0 bottom-[-50px] z-0 overflow-hidden pointer-events-none">
       <img 
-        src="@/assets/images/cover.jpg" 
+        src="@/assets/images/cover.webp" 
         alt="Diving Background" 
         class="w-full h-full object-cover object-center opacity-90 scale-105 filter brightness-75"
       />
@@ -22,7 +22,7 @@ const isModalOpen = ref(false)
       <div class="relative mb-6 group cursor-pointer" title="點擊放大圖片" @click="isModalOpen = true">
         <div class="absolute -inset-0.5 bg-gradient-to-r from-sky-500 to-emerald-500 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-300"></div>
         <img 
-          src="@/assets/images/profile.jpg" 
+          src="@/assets/images/profile.webp" 
           alt="徐瑄伶 (Denise)" 
           class="relative w-28 h-28 md:w-32 md:h-32 rounded-full object-cover border-2 border-slate-800 shadow-2xl"
         />
@@ -59,7 +59,7 @@ const isModalOpen = ref(false)
   >
     <div class="relative max-w-3xl max-h-[90vh]">
       <img 
-        src="@/assets/images/profile.jpg" 
+        src="@/assets/images/profile.webp" 
         alt="徐瑄伶 (Denise) 原圖" 
         class="max-w-full max-h-[85vh] rounded-2xl shadow-2xl border border-slate-700 object-contain"
       />

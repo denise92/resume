@@ -1,9 +1,9 @@
 <!-- src/components/Architecture.vue -->
 <script lang="ts" setup>
 import { ref } from 'vue'
-import invoiceImg from '@/assets/images/invoice.png'
-import logisticsImg from '@/assets/images/logistics.png'
-import advertisingImg from '@/assets/images/advertising.png'
+import invoiceImg from '@/assets/images/invoice.webp'
+import logisticsImg from '@/assets/images/logistics.webp'
+import advertisingImg from '@/assets/images/advertising.webp'
 
 const invoice = ref(false)
 const logistics = ref(false)
