@@ -2,13 +2,13 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-import img1758 from '@/assets/images/1758play.jpg'
-import imgJoinBao from '@/assets/images/joinbao.jpg'
-import imgCrazyMike from '@/assets/images/crazymike.jpg'
-import imgJmag from '@/assets/images/jmag.jpg'
-// import imgAsuka from '@/assets/images/asuka.jpg'
-import imgWinner from '@/assets/images/winnertek.jpg'
-import imgJjb from '@/assets/images/jjb.jpg'
+import img1758 from '@/assets/images/1758play.webp'
+import imgJoinBao from '@/assets/images/joinbao.webp'
+import imgCrazyMike from '@/assets/images/crazymike.webp'
+import imgJmag from '@/assets/images/jmag.webp'
+// import imgAsuka from '@/assets/images/asuka.webp'
+import imgWinner from '@/assets/images/winnertek.webp'
+import imgJjb from '@/assets/images/jjb.webp'
 
 // 定義歷史專案資料結構
 interface ProjectItem {

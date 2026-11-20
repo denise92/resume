@@ -3,13 +3,13 @@
 import { ref } from 'vue'
 
 // 引入歷史經手網站圖片
-import img1758 from '@/assets/images/1758play.jpg'
-import imgJoinBao from '@/assets/images/joinbao.jpg'
-import imgCrazyMike from '@/assets/images/crazymike.jpg'
-import imgJmag from '@/assets/images/jmag.jpg'
-import imgAmz from '@/assets/images/amz.png'
-import imgBeanfun from '@/assets/images/beanfun.jpg'
-import imgAib from '@/assets/images/aib.png'
+import img1758 from '@/assets/images/1758play.webp'
+import imgJoinBao from '@/assets/images/joinbao.webp'
+import imgCrazyMike from '@/assets/images/crazymike.webp'
+import imgJmag from '@/assets/images/jmag.webp'
+import imgAmz from '@/assets/images/amz.webp'
+import imgBeanfun from '@/assets/images/beanfun.webp'
+import imgAib from '@/assets/images/aib.webp'
 
 // 定義燈箱 Modal 狀態
 interface HistoryProject {

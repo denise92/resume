@@ -14,7 +14,7 @@
           <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
             <h3 class="text-xl font-bold text-white flex items-center gap-2">
               <img 
-                src="@/assets/images/nou-logo.png" 
+                src="@/assets/images/nou-logo.webp" 
                 alt="國立空中大學" 
                 class="mr-1 p-2 bg-white text-emerald-400 rounded-xl w-12 h-12 object-contain"
               />
@@ -39,7 +39,7 @@
           <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
             <h3 class="text-xl font-bold text-white flex items-center gap-2">
               <img 
-                src="@/assets/images/nou-logo-ui.png" 
+                src="@/assets/images/nou-logo-ui.webp" 
                 alt="空大學習助手平台" 
                 class="mr-1 p-2 bg-emerald-500/20 text-emerald-400 rounded-xl w-12 h-12 object-contain"
               />
